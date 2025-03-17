@@ -131,7 +131,10 @@ int main(int argc, char *argv[]) try {
   // write vector to csv
   auto write = [N = opts.N, name = opts.name](const auto &x) -> auto {
     std::ofstream csv;
-    csv.open(name + ".csv");
+    //below 
+    std::string filepath = "data/" + name + ".csv";  
+    csv.open(filepath);
+    // csv.open(name + ".csv");
     for (size_t j = 0; j < N; ++j) {
       for (size_t i = 0; i < N - 1; ++i) {
         csv << x[i + j * N] << " ";
