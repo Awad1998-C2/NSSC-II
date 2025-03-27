@@ -16,7 +16,7 @@ std::vector<double> init(size_t N, double W, double E) {
     return res;
 }
 
-void jacobi_iter(const std::vector<double>& xold, std::vector<double>& xnew, size_t N, bool residual) {
+void jacobi_iter_1_process(const std::vector<double>& xold, std::vector<double>& xnew, size_t N, bool residual) {
     auto h = 1.0 / (N - 1);
     auto h2 = h * h;
 

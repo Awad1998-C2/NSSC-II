@@ -8,7 +8,7 @@
 std::vector<double> init(size_t N, double W, double E);
 
 // Perform Jacobi iteration
-void jacobi_iter(const std::vector<double>& xold, std::vector<double>& xnew, size_t N, bool residual = false);
+void jacobi_iter_1_process(const std::vector<double>& xold, std::vector<double>& xnew, size_t N, bool residual = false);
 
 // Write results to CSV
 void write(const std::vector<double>& x, size_t N, const std::string& name);
