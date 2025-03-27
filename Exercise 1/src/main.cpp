@@ -54,12 +54,12 @@ int main(int argc, char *argv[]) try {
     auto x2 = x1;
 
     for (size_t iter = 0; iter <= opts.iters; ++iter) {
-        jacobi_iter(x1, x2, opts.N);
+        jacobi_iter_1_process(x1, x2, opts.N);
         std::swap(x1, x2);
     }
 
     write(x2, opts.N, opts.name);
-    jacobi_iter(x1, x2, opts.N, true);
+    jacobi_iter_1_process(x1, x2, opts.N, true);
 
     std::cout << "  norm2 = " << norm2(x2, opts.N) << '\n';
     std::cout << "normInf = " << normInf(x2, opts.N) << '\n';
