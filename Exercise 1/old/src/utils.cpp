@@ -3,18 +3,20 @@
 #include <cmath>
 #include <fstream>
 
-std::vector<double> init(size_t N, double W, double E) {
-    std::vector<double> res(N * N, 0.0);
-    for (size_t j = 0; j < N; ++j) {
-        for (size_t i = 0; i < N; ++i) {
-            if (i % N == 0)
-                res[i + j * N] = W;
-            if (i % N == N - 1)
-                res[i + j * N] = E;
-        }
-    }
-    return res;
+std::vector<double> init(size_t N, double fix_west, double fix_east) {
+    std::vector<double> data(N * N, 0.0);
+
+    // Set west (left) boundary
+    for (size_t j = 0; j < N; ++j)
+        data[j * N + 0] = fix_west;
+
+    // Set east (right) boundary
+    for (size_t j = 0; j < N; ++j)
+        data[j * N + (N - 1)] = fix_east;
+
+    return data;
 }
+
 
 void jacobi_iter_1_process(const std::vector<double>& xold, std::vector<double>& xnew, size_t N, bool residual) {
     auto h = 1.0 / (N - 1);

@@ -58,7 +58,7 @@ run_seq: $(EXEC_SEQ)
 # Run MPI 1D solver with default parameters (e.g., 4 processes)
 run_mpi_1d: $(EXEC_MPI_1D)
 	@echo "Running MPI 1D solver with 4 processes..."
-	mpirun -np 4 $(EXEC_MPI_1D) 1D benchmarkMPI1D 125 100 0.0 1.0
+	mpirun -np 4 $(EXEC_MPI_1D) 1D benchmarkMPI1D 125 10000 0.0 1.0
 
 # Generate plots from MPI 1D results
 plot_mpi:
