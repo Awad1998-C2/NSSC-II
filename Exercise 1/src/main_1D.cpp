@@ -148,7 +148,7 @@ int main(int argc, char** argv) {
     // MPI_Type_commit(&col);
 
     // how many rows each rank gets? assign remaining rows to rank 0, assign also ghost layers
-    int height = 0;
+    size_t height = 0;
     if (rk == 0) height = (int)(opts.N/size) + (opts.N%size) + 1;
     else if (rk == size-1) height = (int)(opts.N/size) + 1;
     else height = (int)(opts.N/size) + 2;
