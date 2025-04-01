@@ -1,0 +1,258 @@
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ mpirun -np 1 ./main_1D 1D benchmark_1D_2000_1 2000 20 0.0 1.0
+  norm2 = 9.9885e+07
+normInf = 1.998e+06
+Runtime: 107215 microseconds
+  norm2 = 7.23685e+07
+normInf = 1.24875e+06
+Runtime: 2820314 microseconds
+  norm2 = 5.78189e+07
+normInf = 874125
+Runtime: 5539626 microseconds
+  norm2 = 4.86595e+07
+normInf = 749250
+Runtime: 8204615 microseconds
+  norm2 = 4.22979e+07
+normInf = 643887
+Runtime: 10892780 microseconds
+  norm2 = 3.75898e+07
+normInf = 558035
+Runtime: 13595372 microseconds
+  norm2 = 3.39468e+07
+normInf = 488281
+Runtime: 16260913 microseconds
+  norm2 = 3.10335e+07
+normInf = 431209
+Runtime: 19307563 microseconds
+  norm2 = 2.86438e+07
+normInf = 384046
+Runtime: 22792212 microseconds
+  norm2 = 2.66434e+07
+normInf = 344656
+Runtime: 26236262 microseconds
+  norm2 = 2.49413e+07
+normInf = 311422
+Runtime: 29783131 microseconds
+  norm2 = 2.34729e+07
+normInf = 291958
+Runtime: 33261969 microseconds
+  norm2 = 2.21915e+07
+normInf = 274003
+Runtime: 36841066 microseconds
+  norm2 = 2.10622e+07
+normInf = 257512
+Runtime: 40290550 microseconds
+  norm2 = 2.00585e+07
+normInf = 242395
+Runtime: 43730450 microseconds
+  norm2 = 1.91597e+07
+normInf = 228544
+Runtime: 47128518 microseconds
+  norm2 = 1.83495e+07
+normInf = 215847
+Runtime: 50555889 microseconds
+  norm2 = 1.7615e+07
+normInf = 204196
+Runtime: 53991843 microseconds
+  norm2 = 1.69456e+07
+normInf = 193490
+Runtime: 57327445 microseconds
+  norm2 = 1.63326e+07
+normInf = 183637
+Runtime: 60582773 microseconds
+  norm2 = 1.5769e+07
+normInf = 174551
+Runtime: 63860938 microseconds
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ mpirun -np 1 ./main_1D 1D benchmark_1D_1000_1 1000 20 0.0 1.0
+  norm2 = 1.7637e+07
+normInf = 499000
+Runtime: 34409 microseconds
+  norm2 = 1.27775e+07
+normInf = 311875
+Runtime: 668978 microseconds
+  norm2 = 1.0208e+07
+normInf = 218313
+Runtime: 1317166 microseconds
+  norm2 = 8.59048e+06
+normInf = 187125
+Runtime: 1954483 microseconds
+  norm2 = 7.46706e+06
+normInf = 160811
+Runtime: 2581984 microseconds
+  norm2 = 6.63565e+06
+normInf = 139369
+Runtime: 3213499 microseconds
+  norm2 = 5.99235e+06
+normInf = 121948
+Runtime: 3842577 microseconds
+  norm2 = 5.4779e+06
+normInf = 107694
+Runtime: 4471760 microseconds
+  norm2 = 5.05591e+06
+normInf = 95915.4
+Runtime: 5099997 microseconds
+  norm2 = 4.70268e+06
+normInf = 86077.9
+Runtime: 5727342 microseconds
+  norm2 = 4.40211e+06
+normInf = 77777.5
+Runtime: 6371715 microseconds
+  norm2 = 4.14283e+06
+normInf = 72916.4
+Runtime: 7294199 microseconds
+  norm2 = 3.91657e+06
+normInf = 68432.3
+Runtime: 8585295 microseconds
+  norm2 = 3.71717e+06
+normInf = 64313.7
+Runtime: 9748435 microseconds
+  norm2 = 3.53993e+06
+normInf = 60538.2
+Runtime: 10843102 microseconds
+  norm2 = 3.38123e+06
+normInf = 57078.8
+Runtime: 11801853 microseconds
+  norm2 = 3.23817e+06
+normInf = 53907.8
+Runtime: 12683694 microseconds
+  norm2 = 3.10848e+06
+normInf = 50998
+Runtime: 13682336 microseconds
+  norm2 = 2.99028e+06
+normInf = 48324.2
+Runtime: 14613907 microseconds
+  norm2 = 2.88206e+06
+normInf = 45863.2
+Runtime: 15477110 microseconds
+  norm2 = 2.78254e+06
+normInf = 43594.2
+Runtime: 16317827 microseconds
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ mpirun -np 1 ./main_1D 1D benchmark_1D_250_1 250 20 0.0 1.0
+  norm2 = 547359
+normInf = 31000.5
+Runtime: 3010 microseconds
+  norm2 = 396376
+normInf = 19375.3
+Runtime: 49002 microseconds
+  norm2 = 316561
+normInf = 13562.7
+Runtime: 93483 microseconds
+  norm2 = 266323
+normInf = 11625.2
+Runtime: 137616 microseconds
+  norm2 = 231435
+normInf = 9990.4
+Runtime: 177678 microseconds
+  norm2 = 205617
+normInf = 8658.34
+Runtime: 217832 microseconds
+  norm2 = 185643
+normInf = 7576.05
+Runtime: 262934 microseconds
+  norm2 = 169670
+normInf = 6690.54
+Runtime: 303372 microseconds
+  norm2 = 156569
+normInf = 5958.76
+Runtime: 343457 microseconds
+  norm2 = 145603
+normInf = 5347.61
+Runtime: 383187 microseconds
+  norm2 = 136273
+normInf = 4831.94
+Runtime: 422857 microseconds
+  norm2 = 128224
+normInf = 4529.95
+Runtime: 462588 microseconds
+  norm2 = 121201
+normInf = 4251.37
+Runtime: 501970 microseconds
+  norm2 = 115012
+normInf = 3995.5
+Runtime: 541463 microseconds
+  norm2 = 109512
+normInf = 3760.94
+Runtime: 581856 microseconds
+  norm2 = 104586
+normInf = 3546.03
+Runtime: 623121 microseconds
+  norm2 = 100147
+normInf = 3349.03
+Runtime: 665794 microseconds
+  norm2 = 96122.4
+normInf = 3168.26
+Runtime: 706656 microseconds
+  norm2 = 92454.7
+normInf = 3002.15
+Runtime: 746647 microseconds
+  norm2 = 89096.6
+normInf = 2849.26
+Runtime: 788901 microseconds
+  norm2 = 86008.9
+normInf = 2708.3
+Runtime: 830202 microseconds
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ mpirun -np 1 ./main_1D 1D benchmark_1D_125_1 125 20 0.0 1.0
+  norm2 = 95869.1
+normInf = 7688
+Runtime: 352 microseconds
+  norm2 = 69385.3
+normInf = 4805
+Runtime: 13228 microseconds
+  norm2 = 55389
+normInf = 3363.5
+Runtime: 23113 microseconds
+  norm2 = 46580.7
+normInf = 2883
+Runtime: 33349 microseconds
+  norm2 = 40464.5
+normInf = 2477.58
+Runtime: 40714 microseconds
+  norm2 = 35939
+normInf = 2147.23
+Runtime: 56036 microseconds
+  norm2 = 32438
+normInf = 1878.83
+Runtime: 64674 microseconds
+  norm2 = 29638.8
+normInf = 1659.23
+Runtime: 75063 microseconds
+  norm2 = 27342.9
+normInf = 1477.75
+Runtime: 83226 microseconds
+  norm2 = 25421.5
+normInf = 1326.18
+Runtime: 96535 microseconds
+  norm2 = 23786.7
+normInf = 1198.3
+Runtime: 106901 microseconds
+  norm2 = 22376.7
+normInf = 1123.41
+Runtime: 116028 microseconds
+  norm2 = 21146.3
+normInf = 1054.32
+Runtime: 125306 microseconds
+  norm2 = 20062.2
+normInf = 990.867
+Runtime: 132872 microseconds
+  norm2 = 19098.7
+normInf = 932.699
+Runtime: 142426 microseconds
+  norm2 = 18236.1
+normInf = 879.402
+Runtime: 152734 microseconds
+  norm2 = 17458.6
+normInf = 830.546
+Runtime: 160033 microseconds
+  norm2 = 16753.7
+normInf = 785.716
+Runtime: 169360 microseconds
+  norm2 = 16111.5
+normInf = 744.521
+Runtime: 178105 microseconds
+  norm2 = 15523.4
+normInf = 706.606
+Runtime: 186609 microseconds
+  norm2 = 14982.8
+normInf = 671.647
+Runtime: 194224 microseconds
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ 
+
