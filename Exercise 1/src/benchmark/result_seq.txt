@@ -1,0 +1,44 @@
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ ./solverMPI 1D benchmark1 125 20 0.0 1.0
+mpi_mode: 1
+Dname: benchmark1
+N: 125
+iters: 20
+fix_west: 0.000000
+fix_east: 1.000000
+  norm2 = 15181.6
+normInf = 671.647
+Runtime: 10725 microseconds
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ ./solverMPI 1D benchmark1 250 20 0.0 1.0
+mpi_mode: 1
+Dname: benchmark1
+N: 250
+iters: 20
+fix_west: 0.000000
+fix_east: 1.000000
+  norm2 = 86573.8
+normInf = 2708.3
+Runtime: 59240 microseconds
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ ./solverMPI 1D benchmark1 1000 20 0.0 1.0
+mpi_mode: 1
+Dname: benchmark1
+N: 1000
+iters: 20
+fix_west: 0.000000
+fix_east: 1.000000
+
+  norm2 = 2.78708e+06
+normInf = 43594.2
+Runtime: 693391 microseconds
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ 
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ ./solverMPI 1D benchmark1 2000 20 0.0 1.0
+mpi_mode: 1
+Dname: benchmark1
+N: 2000
+iters: 20
+fix_west: 0.000000
+fix_east: 1.000000
+  norm2 = 1.57819e+07
+normInf = 174551
+Runtime: 2677347 microseconds
+(base) natalia@natalia-VirtualBox:~/Desktop/NSSC-II/Exercise 1/src$ 
+

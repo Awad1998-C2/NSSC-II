@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.json": "cpp",
+        "stdexcept": "cpp",
+        "iostream": "cpp"
+    }
+}

@@ -1,3 +1,0 @@
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** JOB 140715 ON tcad38 CANCELLED AT 2025-04-01T18:52:45 DUE TO TIME LIMIT ***
-slurmstepd: error: *** STEP 140715.12 ON tcad38 CANCELLED AT 2025-04-01T18:52:45 DUE TO TIME LIMIT ***

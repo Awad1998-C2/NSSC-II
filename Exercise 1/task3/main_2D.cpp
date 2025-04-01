@@ -7,6 +7,39 @@
 #include <vector>
 #include <mpi.h> // https://www-lb.open-mpi.org/doc/v4.1/
 
+#include <cmath>      // for std::sqrt, std::fabs
+#include <chrono>     // for std::chrono::high_resolution_clock
+
+// Transpose a matrix stored in row-major order
+std::vector<double> transpose(const std::vector<double>& vec, int height, int width) {
+  std::vector<double> transposed_vec(vec.size());
+  for (int j = 0; j < height; j++) {
+      for (int i = 0; i < width; i++) {
+          transposed_vec[j + i * height] = vec[i + j * width];
+      }
+  }
+  return transposed_vec;
+}
+
+// Compute the L2 norm
+double norm2(const std::vector<double>& vec, int N) {
+  double sum = 0.0;
+  for (int j = 0; j < N; ++j)
+      for (int i = 0; i < N; ++i)
+          sum += vec[i + j * N] * vec[i + j * N];
+  return std::sqrt(sum);
+}
+
+// Compute the max norm
+double normInf(const std::vector<double>& vec, int N) {
+  double max = 0.0;
+  for (int j = 0; j < N; ++j)
+      for (int i = 0; i < N; ++i)
+          max = std::max(max, std::fabs(vec[i + j * N]));
+  return max;
+}
+
+
 namespace program_options {
 
   struct Options {
@@ -169,31 +202,23 @@ int main(int argc, char** argv) {
             height = ( (int)(opts.N/num1) );
             width = ( (int)(opts.N/num2) );
         }
-        // ghost layer
         if ( (coord[0]==0 && coord[1]==0) || (coord[0]==0 && coord[1]==num2-1) || (coord[0]==num1-1 && coord[1]==0) || (coord[0]==num1-1 && coord[1]==num2-1) ) {
-            // corner pieces
             height += 1;
             width += 1;
         }
         else if ( (coord[0]==0) || (coord[0]==num1-1) ) {
-            // horizontal edges
             width += 2;
             height += 1;
         }
         else if ( (coord[1]==0) || (coord[1]==num2-1) ) {
-            // vertical edges
             width += 1;
             height += 2;
         }
         else {
-            // inside
             width += 2;   
             height += 2;
         }
-        if (flag_1d) {
-            // this is equivalent to width--; this removes the ghost layer in horizontal direction
-            width = opts.N;
-        }
+
 
     // wait for all ranks to print initial state before communicating data
     MPI_Barrier(comm);
@@ -220,8 +245,8 @@ int main(int argc, char** argv) {
        // initial guess (0.0) with fixed values in west and east
        auto init = [num1, num2, coord, width, height, W = opts.fix_west, E = opts.fix_east]() -> auto {
         std::vector<double> res(width * height);
-        for (size_t j = 0; j < height; ++j)
-            for (size_t i = 0; i < width; ++i) {
+        for (int j = 0; j < height; ++j)
+            for (int i = 0; i < width; ++i) {
                 res[i + j * width] = 0.0;
                 if (i % width == 0)
                 res[i + j * width] = (coord[1] == 0) ? W : 0;
@@ -231,67 +256,15 @@ int main(int argc, char** argv) {
         return res;
     };
 
-    // solver update for only one process
-    auto jacobi_iter_one_process = [N = opts.N](const auto &xold, auto &xnew,
-                                    bool residual = false) {
-        auto h = 1.0 / (N - 1);
-        auto h2 = h * h;
-        // all interior points
-        for (size_t j = 1; j < N - 1; ++j) {
-        for (size_t i = 1; i < N - 1; ++i) {
-            auto w = xold[(i - 1) + (j)*N];
-            auto e = xold[(i + 1) + (j)*N];
-            auto n = xold[(i) + (j + 1) * N];
-            auto s = xold[(i) + (j - 1) * N];
-            auto c = xold[(i) + (j)*N];
-            if (!residual)
-            xnew[i + j * N] = (- (-1.0 / h2) * (w + e + n + s)) * h2 / 4.0;
-            else
-            xnew[i + j * N] = (-1.0 / h2) * (w + e + n + s - 4.0 * c);
-        }
-        }
-        // isolating south boundary
-        {
-        size_t j = 0;
-        for (size_t i = 1; i < N - 1; ++i) {
-            auto w = xold[(i - 1) + (j)*N];
-            auto e = xold[(i + 1) + (j)*N];
-            auto n = xold[(i) + (j + 1) * N];
-            auto s = n;
-            auto c = xold[(i) + (j)*N];
-            if (!residual)
-            xnew[i + j * N] = (- (-1.0 / h2) * (w + e + n + s)) * h2 / 4.0;
-            else
-            xnew[i + j * N] = (-1.0 / h2) * (w + e + n + s - 4 * c);
-        }
-        }
-        // isolating north boundary
-        {
-        size_t j = N - 1;
-        for (size_t i = 1; i < N - 1; ++i) {
-            auto w = xold[(i - 1) + (j)*N];
-            auto e = xold[(i + 1) + (j)*N];
-            auto s = xold[(i) + (j - 1) * N];
-            auto n = s;
-            auto c = xold[(i) + (j)*N];
-            if (!residual)
-            xnew[i + j * N] = (- (-1.0 / h2) * (w + e + n + s)) * h2 / 4.0;
-            else
-            xnew[i + j * N] = (-1.0 / h2) * (w + e + n + s - 4 * c);
-        }
-        }
-    };
-
-    // solver update for more than one process
-    auto jacobi_iter = [width, height, coord, num1, num2, N=opts.N](const auto &xold, auto &xnew,
+      auto jacobi_iter = [width, height, coord, num1, num2, N=opts.N](const auto &xold, auto &xnew,
                                     bool residual = false) {
         auto h = 1.0 / (N - 1);
         auto h2 = h * h;
         if (coord[0]==0) {
             /* j=0: Neumann-Boundary; j=height-1: Ghost-Layer */
             // south boundary
-            size_t j = 0;
-            for (size_t i = 1; i < width - 1; ++i) {
+            int j = 0;
+            for (int i = 1; i < width - 1; ++i) {
                 auto w = xold[(i - 1) + (j)*width];
                 auto e = xold[(i + 1) + (j)*width];
                 auto n = xold[(i) + (j + 1) * width];
@@ -303,8 +276,8 @@ int main(int argc, char** argv) {
                 xnew[i + j * width] = (-1.0 / h2) * (w + e + n + s - 4 * c);
             }
             // all interior points
-            for (size_t j = 1; j < (height-1); ++j) {
-                for (size_t i = 1; i < width - 1; ++i) {
+            for (int j = 1; j < (height-1); ++j) {
+                for (int i = 1; i < width - 1; ++i) {
                     auto w = xold[(i - 1) + (j)*width];
                     auto e = xold[(i + 1) + (j)*width];
                     auto n = xold[(i) + (j + 1) * width];
@@ -320,8 +293,8 @@ int main(int argc, char** argv) {
         else if (coord[0] == num1-1) {
             /* j=0: Ghost-Layer; j=height-1: Dirichlet-Boundary */
             // North boundary
-            size_t j = height - 1;
-            for (size_t i = 1; i < width - 1; ++i) {
+            int j = height - 1;
+            for (int i = 1; i < width - 1; ++i) {
                 auto w = xold[(i - 1) + (j)*width];
                 auto e = xold[(i + 1) + (j)*width];
                 auto s = xold[(i) + (j - 1) * width];
@@ -332,8 +305,8 @@ int main(int argc, char** argv) {
                 else
                 xnew[i + j * width] = (-1.0 / h2) * (w + e + n + s - 4 * c);
             }
-            for (size_t j = 1; j < height - 1; ++j) {
-                for (size_t i = 1; i < width - 1; ++i) {
+            for (int j = 1; j < height - 1; ++j) {
+                for (int i = 1; i < width - 1; ++i) {
                     auto w = xold[(i - 1) + (j)*width];
                     auto e = xold[(i + 1) + (j)*width];
                     auto n = xold[(i) + (j + 1) * width];
@@ -348,8 +321,8 @@ int main(int argc, char** argv) {
         }
         else {
             /* j=0 and j=height-1: Ghost-Layer */
-            for (size_t j = 1; j < height - 1; ++j) {
-                for (size_t i = 1; i < width - 1; ++i) {
+            for (int j = 1; j < height - 1; ++j) {
+                for (int i = 1; i < width - 1; ++i) {
                     auto w = xold[(i - 1) + (j)*width];
                     auto e = xold[(i + 1) + (j)*width];
                     auto n = xold[(i) + (j + 1) * width];
@@ -378,35 +351,23 @@ int main(int argc, char** argv) {
       csv.close();
     };
 
-    // 2 norm
-    auto norm2 = [N = opts.N](const auto &vec) -> auto {
-      double sum = 0.0;
-      for (size_t j = 0; j < N; ++j)
-        for (size_t i = 1; i < (N - 1); ++i)
-          sum += vec[i + j * N] * vec[i + j * N];
-      return std::sqrt(sum);  
-    };
+    // // 2 norm
+    // auto norm2 = [N = opts.N](const auto &vec) -> double {
+    //   double sum = 0.0;
+    //   for (size_t j = 0; j < N; ++j)
+    //     for (size_t i = 1; i < (N - 1); ++i)
+    //       sum += vec[i + j * N] * vec[i + j * N];
+    //   return std::sqrt(sum);  // ← this must return
+    // };
 
-    // Inf norm
-    auto normInf = [N = opts.N](const auto &vec) -> auto {
-      double max = 0.0;
-      for (size_t j = 0; j < N; ++j)
-        for (size_t i = 1; i < (N - 1); ++i)
-          max = std::fabs(vec[i + j * N]) > max ? std::fabs(vec[i + j * N]) : max;
-      return max;
-    };
-
-    // print segment of a specific rank
-    auto print_vec = [rk](auto vec, int height, int width, int rank=0) {
-        if (rk == rank) {
-            for (int j=height-1; j>=0; j--) {
-                for (int i=0; i<width-1; i++) {
-                    std::cout << vec[i + width*j] << "\t";
-                }
-                std::cout << vec[width-1 + width*j] << std::endl;
-            }
-        }
-    };
+    // // Inf norm
+    // auto normInf = [N = opts.N](const auto &vec) -> double {
+    //   double max = 0.0;
+    //   for (size_t j = 0; j < N; ++j)
+    //     for (size_t i = 1; i < (N - 1); ++i)
+    //       max = std::fabs(vec[i + j * N]) > max ? std::fabs(vec[i + j * N]) : max;
+    //   return max;
+    // };
     
 // start clock
     const auto start = std::chrono::high_resolution_clock::now();
@@ -474,110 +435,68 @@ int main(int argc, char** argv) {
 
     jacobi_iter(x1, x2, true);
     // transpose
-    auto transpose = [](const auto& vec, int height, int width)->auto {
-      std::vector<double> transposed_vec(vec.size());
-      for (int j=0; j<height; j++) {
-          for (int i=0; i<width; i++) {
-              transposed_vec[j + i*height] = vec[i + j*width];
-          }
-      }
-      return transposed_vec;
-  };
+// Helper: create row and column communicators
+MPI_Comm row_comm, col_comm;
+MPI_Comm_split(comm, coord[0], coord[1], &row_comm);
+MPI_Comm_split(comm, coord[1], coord[0], &col_comm);
 
-  // create communicators for row and column
-  MPI_Comm row_comm;
-  MPI_Comm_split(comm, coord[0], coord[1], &row_comm);
-  MPI_Comm col_comm;
-  MPI_Comm_split(comm, coord[1], coord[0], &col_comm);
+// Step 1: Gather within each row
+int local_inner_rows = height - 2;
+std::vector<double> row_gathered;
+int row_root = 0;
+if (coord[1] == row_root)
+    row_gathered.resize(width * local_inner_rows * num2);
 
-  // use MPI_Gather to perform vertical gather
-  auto gather_all_parts_vertical = [N = opts.N, coord, height, width, col_comm, row, num1](const auto& vec) -> auto {
-    // initialising receive buffer
-    std::vector<double> recvbuf;
-    if (coord[0] == 0) {
-      recvbuf = vec;
-      recvbuf.resize(N*width, -1);
-    }
-    // gather different parts of different processes into processes with column-rank 0
-    if (coord[0]==0)
-      // processes at the bottom
-      MPI_Gather(&vec[(N%num1)*width], height-1-(N%num1), row, std::data(recvbuf)+((N%num1)*width), height-1-(N%num1), row, 0, col_comm);
-    else if (coord[0]==num1-1)
-      // processes at the top
-      MPI_Gather(&vec[(1)*width], height-1, row, std::data(recvbuf)+((N%num1)*width), height-1, row, 0, col_comm);
-    else
-      MPI_Gather(&vec[(1)*width], height-2, row, std::data(recvbuf)+((N%num1)*width), height-2, row, 0, col_comm);
+MPI_Gather(
+    &x1[width * 1],                // skip top ghost row
+    width * local_inner_rows,
+    MPI_DOUBLE,
+    row_gathered.data(),
+    width * local_inner_rows,
+    MPI_DOUBLE,
+    row_root,
+    row_comm
+);
 
-    return recvbuf;
-  };
+// Step 2: Gather from row roots to (0,0)
+std::vector<double> full_result;
+if (coord[0] == 0 && coord[1] == 0)
+    full_result.resize(opts.N * opts.N, -1);
 
-  // use MPI_Gather to perform horizontal gather
-  auto gather_all_parts_horizontal = [N = opts.N, coord, width, row_comm, long_row, num2](const auto& vec) -> auto {
-      // initialising receive buffer
-      std::vector<double> recvbuf;
-      if (coord[0]==0 && coord[1]==0) {
-          recvbuf = vec;
-          recvbuf.resize(N*N, -1);
-      }
-      // gather different parts of different processes into process rk 0
-      if (coord[1]==0)
-          // process with rk 0
-          MPI_Gather(&vec[(N%num2)*N], width-1-(N%num2), long_row, std::data(recvbuf)+((N%num2)*N), width-1-(N%num2), long_row, 0, row_comm);
-      else if (coord[1]==num2-1)
-          // process most right at the bottom
-          MPI_Gather(&vec[(1)*N], width-1, long_row, std::data(recvbuf)+((N%num2)*N), width-1, long_row, 0, row_comm);
-      else
-          MPI_Gather(&vec[(1)*N], width-2, long_row, std::data(recvbuf)+((N%num2)*N), width-2, long_row, 0, row_comm);
+if (coord[1] == row_root) {
+    MPI_Gather(
+        row_gathered.data(),
+        width * local_inner_rows * num2,
+        MPI_DOUBLE,
+        full_result.data(),
+        width * local_inner_rows * num2,
+        MPI_DOUBLE,
+        0,
+        col_comm
+    );
+}
 
-      return recvbuf;
-  };
 
-  // use MPI_Gather to collect all partial results in case of prime number --> 1d
-  auto gather_all_parts_1d = [N = opts.N, rk, size, height, comm, row](const auto& vec) -> auto {
-    // initialising receive buffer
-    std::vector<double> recvbuf;
-    if (rk == 0) {
-      recvbuf = vec;
-      recvbuf.resize(N*N, -1);
-    }
-    // gather different parts of different processes into process rk=0
-    if (rk == 0)
-      MPI_Gather(&vec[(N%size)*N], height-1-(N%size), row, std::data(recvbuf)+((N%size)*N), height-1-(N%size), row, 0, comm);
-    else if (rk == size-1)
-      MPI_Gather(&vec[(1)*N], height-1, row, std::data(recvbuf)+((N%size)*N), height-1, row, 0, comm);
-    else
-      MPI_Gather(&vec[(1)*N], height-2, row, std::data(recvbuf)+((N%size)*N), height-2, row, 0, comm);
-
-    return recvbuf;
-  };
 
   std::vector<double> solution;
   std::vector<double> residual;
-  if (flag_1d) {
-      // perform gather for solution and residual
-      solution = gather_all_parts_1d(x1);
-      residual = gather_all_parts_1d(x2);
-  }
-  else if(flag_one_process) {
-      // no action necessary
-  }
-  else {
-      // perform vertical gather
-      solution = gather_all_parts_vertical(x1);
-      if (coord[0]==0) {
-          solution = gather_all_parts_horizontal(transpose(solution, opts.N, width));
-      }
-      // perform horizontal gather
-      residual = gather_all_parts_vertical(x2);
-      if (coord[0]==0) {
-          residual = gather_all_parts_horizontal(transpose(residual, opts.N, width));
-      }
-      // perform final transposition
-      if (rk==0) {
-          solution = transpose(solution, opts.N, opts.N);
-          residual = transpose(residual, opts.N, opts.N);
-      }
-  }
+
+      // // perform vertical gather
+      // solution = gather_all_parts_vertical(x1);
+      // if (coord[0]==0) {
+      //     solution = gather_all_parts_horizontal(transpose(solution, opts.N, width));
+      // }
+      // // perform horizontal gather
+      // residual = gather_all_parts_vertical(x2);
+      // if (coord[0]==0) {
+      //     residual = gather_all_parts_horizontal(transpose(residual, opts.N, width));
+      // }
+      // // perform final transposition
+      // if (rk==0) {
+      //     solution = transpose(solution, opts.N, opts.N);
+      //     residual = transpose(residual, opts.N, opts.N);
+      // }
+  
 
   // stop clock and calculate duration
   const auto end = std::chrono::high_resolution_clock::now();
@@ -586,8 +505,12 @@ int main(int argc, char** argv) {
   // write solution to file and print norms to console
   if (rk == 0) {
     write(solution);
-    std::cout << "  norm2 = " << norm2(residual) << std::endl;
-    std::cout << "normInf = " << normInf(residual) << std::endl;
+    // std::cout << "  norm2 = " << norm2(residual) << std::endl;
+    // std::cout << "normInf = " << normInf(residual) << std::endl;
+    
+    std::cout << "  norm2 = " << norm2(residual, opts.N) << std::endl;
+    std::cout << "normInf = " << normInf(residual, opts.N) << std::endl;
+
     std::cout << "Runtime: " << duration.count() << " microseconds" << std::endl;
   }
 
