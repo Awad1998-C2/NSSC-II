@@ -1,0 +1,2736 @@
+Running resolution=1000, MPI processes=32
+  norm2 = 1.76423e+07
+normInf = 499000
+Runtime: 42014 microseconds
+  norm2 = 1.27831e+07
+normInf = 311875
+Runtime: 603945 microseconds
+  norm2 = 1.02136e+07
+normInf = 218313
+Runtime: 1165305 microseconds
+  norm2 = 8.59604e+06
+normInf = 187125
+Runtime: 1725929 microseconds
+  norm2 = 7.47254e+06
+normInf = 160811
+Runtime: 2289895 microseconds
+  norm2 = 6.64104e+06
+normInf = 139369
+Runtime: 2851758 microseconds
+  norm2 = 5.99765e+06
+normInf = 121948
+Runtime: 3413648 microseconds
+  norm2 = 5.48313e+06
+normInf = 107694
+Runtime: 3975598 microseconds
+  norm2 = 5.06106e+06
+normInf = 95915.4
+Runtime: 4537171 microseconds
+  norm2 = 4.70777e+06
+normInf = 86077.9
+Runtime: 5100378 microseconds
+  norm2 = 4.40713e+06
+normInf = 77777.5
+Runtime: 5663145 microseconds
+  norm2 = 4.14778e+06
+normInf = 72916.4
+Runtime: 6225885 microseconds
+  norm2 = 3.92146e+06
+normInf = 68432.3
+Runtime: 6789192 microseconds
+  norm2 = 3.72201e+06
+normInf = 64313.7
+Runtime: 7352777 microseconds
+  norm2 = 3.54472e+06
+normInf = 60538.2
+Runtime: 7915529 microseconds
+  norm2 = 3.38597e+06
+normInf = 57078.8
+Runtime: 8478975 microseconds
+  norm2 = 3.24287e+06
+normInf = 53907.8
+Runtime: 9042550 microseconds
+  norm2 = 3.11313e+06
+normInf = 50998
+Runtime: 9606785 microseconds
+  norm2 = 2.99489e+06
+normInf = 48324.2
+Runtime: 10173099 microseconds
+  norm2 = 2.88663e+06
+normInf = 45863.2
+Runtime: 10739437 microseconds
+  norm2 = 2.78708e+06
+normInf = 43594.2
+Runtime: 11303302 microseconds
+  norm2 = 2.69518e+06
+normInf = 41498.3
+Runtime: 11867411 microseconds
+  norm2 = 2.61006e+06
+normInf = 39558.8
+Runtime: 12434992 microseconds
+  norm2 = 2.53096e+06
+normInf = 38194.7
+Runtime: 12999202 microseconds
+  norm2 = 2.45724e+06
+normInf = 36892.6
+Runtime: 13563528 microseconds
+  norm2 = 2.38834e+06
+normInf = 35650.8
+Runtime: 14131999 microseconds
+  norm2 = 2.32378e+06
+normInf = 34467.1
+Runtime: 14700253 microseconds
+  norm2 = 2.26316e+06
+normInf = 33339.1
+Runtime: 15265276 microseconds
+  norm2 = 2.2061e+06
+normInf = 32264.2
+Runtime: 15830802 microseconds
+  norm2 = 2.15229e+06
+normInf = 31240
+Runtime: 16396722 microseconds
+  norm2 = 2.10144e+06
+normInf = 30263.7
+Runtime: 16961401 microseconds
+  norm2 = 2.05332e+06
+normInf = 29333
+Runtime: 17527182 microseconds
+  norm2 = 2.00768e+06
+normInf = 28445.2
+Runtime: 18093012 microseconds
+  norm2 = 1.96435e+06
+normInf = 27598.2
+Runtime: 18658743 microseconds
+  norm2 = 1.92314e+06
+normInf = 26789.7
+Runtime: 19225052 microseconds
+  norm2 = 1.88389e+06
+normInf = 26017.5
+Runtime: 19791803 microseconds
+  norm2 = 1.84646e+06
+normInf = 25279.6
+Runtime: 20361965 microseconds
+  norm2 = 1.81072e+06
+normInf = 24574.1
+Runtime: 20928875 microseconds
+  norm2 = 1.77655e+06
+normInf = 23899.3
+Runtime: 21495654 microseconds
+  norm2 = 1.74385e+06
+normInf = 23379.7
+Runtime: 22063233 microseconds
+  norm2 = 1.71253e+06
+normInf = 22875.6
+Runtime: 22633032 microseconds
+  norm2 = 1.68248e+06
+normInf = 22386.4
+Runtime: 23201724 microseconds
+  norm2 = 1.65364e+06
+normInf = 21912
+Runtime: 23769956 microseconds
+  norm2 = 1.62592e+06
+normInf = 21451.8
+Runtime: 24379122 microseconds
+  norm2 = 1.59927e+06
+normInf = 21005.6
+Runtime: 25017013 microseconds
+  norm2 = 1.57361e+06
+normInf = 20572.8
+Runtime: 25656160 microseconds
+  norm2 = 1.54889e+06
+normInf = 20153
+Runtime: 26295396 microseconds
+  norm2 = 1.52506e+06
+normInf = 19745.9
+Runtime: 26934812 microseconds
+  norm2 = 1.50207e+06
+normInf = 19351
+Runtime: 27574434 microseconds
+  norm2 = 1.47987e+06
+normInf = 18967.8
+Runtime: 28216550 microseconds
+  norm2 = 1.45842e+06
+normInf = 18596.1
+Runtime: 28859378 microseconds
+  norm2 = 1.43769e+06
+normInf = 18235.4
+Runtime: 29495199 microseconds
+  norm2 = 1.41763e+06
+normInf = 17885.4
+Runtime: 30130080 microseconds
+  norm2 = 1.39821e+06
+normInf = 17545.5
+Runtime: 30756932 microseconds
+  norm2 = 1.3794e+06
+normInf = 17215.6
+Runtime: 31379386 microseconds
+  norm2 = 1.36117e+06
+normInf = 16895.2
+Runtime: 32001332 microseconds
+  norm2 = 1.34349e+06
+normInf = 16584
+Runtime: 32622833 microseconds
+  norm2 = 1.32634e+06
+normInf = 16281.7
+Runtime: 33247625 microseconds
+  norm2 = 1.30969e+06
+normInf = 15988
+Runtime: 33870995 microseconds
+  norm2 = 1.29352e+06
+normInf = 15749.3
+Runtime: 34494305 microseconds
+  norm2 = 1.27781e+06
+normInf = 15515.7
+Runtime: 35117442 microseconds
+  norm2 = 1.26254e+06
+normInf = 15286.9
+Runtime: 35740749 microseconds
+  norm2 = 1.24768e+06
+normInf = 15062.8
+Runtime: 36368130 microseconds
+  norm2 = 1.23323e+06
+normInf = 14843.5
+Runtime: 36992834 microseconds
+  norm2 = 1.21916e+06
+normInf = 14628.7
+Runtime: 37616896 microseconds
+  norm2 = 1.20546e+06
+normInf = 14418.5
+Runtime: 38242018 microseconds
+  norm2 = 1.19212e+06
+normInf = 14212.6
+Runtime: 38866596 microseconds
+  norm2 = 1.17911e+06
+normInf = 14011.1
+Runtime: 39491307 microseconds
+  norm2 = 1.16643e+06
+normInf = 13813.8
+Runtime: 40116358 microseconds
+  norm2 = 1.15407e+06
+normInf = 13620.6
+Runtime: 40742373 microseconds
+  norm2 = 1.14201e+06
+normInf = 13431.4
+Runtime: 41369986 microseconds
+  norm2 = 1.13023e+06
+normInf = 13246.2
+Runtime: 41997180 microseconds
+  norm2 = 1.11874e+06
+normInf = 13064.8
+Runtime: 42622319 microseconds
+  norm2 = 1.10751e+06
+normInf = 12887.1
+Runtime: 43249361 microseconds
+  norm2 = 1.09655e+06
+normInf = 12713.1
+Runtime: 43875789 microseconds
+  norm2 = 1.08583e+06
+normInf = 12542.7
+Runtime: 44504865 microseconds
+  norm2 = 1.07536e+06
+normInf = 12375.7
+Runtime: 45131652 microseconds
+  norm2 = 1.06512e+06
+normInf = 12212.2
+Runtime: 45761947 microseconds
+  norm2 = 1.0551e+06
+normInf = 12052
+Runtime: 46390101 microseconds
+  norm2 = 1.0453e+06
+normInf = 11895
+Runtime: 47023102 microseconds
+  norm2 = 1.03571e+06
+normInf = 11741.1
+Runtime: 47650502 microseconds
+  norm2 = 1.02632e+06
+normInf = 11590.3
+Runtime: 48279269 microseconds
+  norm2 = 1.01713e+06
+normInf = 11442.6
+Runtime: 48908577 microseconds
+  norm2 = 1.00813e+06
+normInf = 11318.2
+Runtime: 49540683 microseconds
+  norm2 = 999313
+normInf = 11195.7
+Runtime: 50169948 microseconds
+  norm2 = 990673
+normInf = 11075.1
+Runtime: 50800145 microseconds
+  norm2 = 982206
+normInf = 10956.4
+Runtime: 51429883 microseconds
+  norm2 = 973906
+normInf = 10839.5
+Runtime: 52060590 microseconds
+  norm2 = 965767
+normInf = 10724.4
+Runtime: 52691009 microseconds
+  norm2 = 957785
+normInf = 10611
+Runtime: 53322538 microseconds
+  norm2 = 949956
+normInf = 10499.4
+Runtime: 53954983 microseconds
+  norm2 = 942274
+normInf = 10389.6
+Runtime: 54586969 microseconds
+  norm2 = 934736
+normInf = 10281.4
+Runtime: 55219284 microseconds
+  norm2 = 927337
+normInf = 10174.8
+Runtime: 55851192 microseconds
+  norm2 = 920073
+normInf = 10070
+Runtime: 56483197 microseconds
+  norm2 = 912941
+normInf = 9966.67
+Runtime: 57115409 microseconds
+  norm2 = 905936
+normInf = 9864.97
+Runtime: 57747687 microseconds
+  norm2 = 899056
+normInf = 9764.82
+Runtime: 58380673 microseconds
+  norm2 = 892296
+normInf = 9666.2
+Runtime: 59013595 microseconds
+  norm2 = 885653
+normInf = 9569.08
+Runtime: 59647498 microseconds
+  norm2 = 879125
+normInf = 9473.44
+Runtime: 60281107 microseconds
+Running resolution=1000, MPI processes=33
+  norm2 = 1.76423e+07
+normInf = 499000
+Runtime: 38006 microseconds
+  norm2 = 1.27831e+07
+normInf = 311875
+Runtime: 646472 microseconds
+  norm2 = 1.02136e+07
+normInf = 218313
+Runtime: 1236023 microseconds
+  norm2 = 8.59604e+06
+normInf = 187125
+Runtime: 1831825 microseconds
+  norm2 = 7.47254e+06
+normInf = 160811
+Runtime: 2419948 microseconds
+  norm2 = 6.64104e+06
+normInf = 139369
+Runtime: 3015993 microseconds
+  norm2 = 5.99765e+06
+normInf = 121948
+Runtime: 3608666 microseconds
+  norm2 = 5.48313e+06
+normInf = 107694
+Runtime: 4202516 microseconds
+  norm2 = 5.06106e+06
+normInf = 95915.4
+Runtime: 4791612 microseconds
+  norm2 = 4.70777e+06
+normInf = 86077.9
+Runtime: 5385316 microseconds
+  norm2 = 4.40713e+06
+normInf = 77777.5
+Runtime: 5978079 microseconds
+  norm2 = 4.14778e+06
+normInf = 72916.4
+Runtime: 6571247 microseconds
+  norm2 = 3.92146e+06
+normInf = 68432.3
+Runtime: 7160678 microseconds
+  norm2 = 3.72201e+06
+normInf = 64313.7
+Runtime: 7755394 microseconds
+  norm2 = 3.54472e+06
+normInf = 60538.2
+Runtime: 8349031 microseconds
+  norm2 = 3.38597e+06
+normInf = 57078.8
+Runtime: 8944958 microseconds
+  norm2 = 3.24287e+06
+normInf = 53907.8
+Runtime: 9539356 microseconds
+  norm2 = 3.11313e+06
+normInf = 50998
+Runtime: 10133735 microseconds
+  norm2 = 2.99489e+06
+normInf = 48324.2
+Runtime: 10733860 microseconds
+  norm2 = 2.88663e+06
+normInf = 45863.2
+Runtime: 11329033 microseconds
+  norm2 = 2.78708e+06
+normInf = 43594.2
+Runtime: 11926111 microseconds
+  norm2 = 2.69518e+06
+normInf = 41498.3
+Runtime: 12522650 microseconds
+  norm2 = 2.61006e+06
+normInf = 39558.8
+Runtime: 13114409 microseconds
+  norm2 = 2.53096e+06
+normInf = 38194.7
+Runtime: 13691524 microseconds
+  norm2 = 2.45724e+06
+normInf = 36892.6
+Runtime: 14263297 microseconds
+  norm2 = 2.38834e+06
+normInf = 35650.8
+Runtime: 14839257 microseconds
+  norm2 = 2.32378e+06
+normInf = 34467.1
+Runtime: 15429688 microseconds
+  norm2 = 2.26316e+06
+normInf = 33339.1
+Runtime: 16008512 microseconds
+  norm2 = 2.2061e+06
+normInf = 32264.2
+Runtime: 16581109 microseconds
+  norm2 = 2.15229e+06
+normInf = 31240
+Runtime: 17162615 microseconds
+  norm2 = 2.10144e+06
+normInf = 30263.7
+Runtime: 17741636 microseconds
+  norm2 = 2.05332e+06
+normInf = 29333
+Runtime: 18320028 microseconds
+  norm2 = 2.00768e+06
+normInf = 28445.2
+Runtime: 18897596 microseconds
+  norm2 = 1.96435e+06
+normInf = 27598.2
+Runtime: 19480175 microseconds
+  norm2 = 1.92314e+06
+normInf = 26789.7
+Runtime: 20059298 microseconds
+  norm2 = 1.88389e+06
+normInf = 26017.5
+Runtime: 20641496 microseconds
+  norm2 = 1.84646e+06
+normInf = 25279.6
+Runtime: 21215285 microseconds
+  norm2 = 1.81072e+06
+normInf = 24574.1
+Runtime: 21792519 microseconds
+  norm2 = 1.77655e+06
+normInf = 23899.3
+Runtime: 22367375 microseconds
+  norm2 = 1.74385e+06
+normInf = 23379.7
+Runtime: 22952193 microseconds
+  norm2 = 1.71253e+06
+normInf = 22875.6
+Runtime: 23540133 microseconds
+  norm2 = 1.68248e+06
+normInf = 22386.4
+Runtime: 24116225 microseconds
+  norm2 = 1.65364e+06
+normInf = 21912
+Runtime: 24690947 microseconds
+  norm2 = 1.62592e+06
+normInf = 21451.8
+Runtime: 25273682 microseconds
+  norm2 = 1.59927e+06
+normInf = 21005.6
+Runtime: 25860799 microseconds
+  norm2 = 1.57361e+06
+normInf = 20572.8
+Runtime: 26443622 microseconds
+  norm2 = 1.54889e+06
+normInf = 20153
+Runtime: 27028699 microseconds
+  norm2 = 1.52506e+06
+normInf = 19745.9
+Runtime: 27613151 microseconds
+  norm2 = 1.50207e+06
+normInf = 19351
+Runtime: 28197496 microseconds
+  norm2 = 1.47987e+06
+normInf = 18967.8
+Runtime: 28780252 microseconds
+  norm2 = 1.45842e+06
+normInf = 18596.1
+Runtime: 29361683 microseconds
+  norm2 = 1.43769e+06
+normInf = 18235.4
+Runtime: 29943985 microseconds
+  norm2 = 1.41763e+06
+normInf = 17885.4
+Runtime: 30530894 microseconds
+  norm2 = 1.39821e+06
+normInf = 17545.5
+Runtime: 31118750 microseconds
+  norm2 = 1.3794e+06
+normInf = 17215.6
+Runtime: 31706717 microseconds
+  norm2 = 1.36117e+06
+normInf = 16895.2
+Runtime: 32296621 microseconds
+  norm2 = 1.34349e+06
+normInf = 16584
+Runtime: 32881165 microseconds
+  norm2 = 1.32634e+06
+normInf = 16281.7
+Runtime: 33466757 microseconds
+  norm2 = 1.30969e+06
+normInf = 15988
+Runtime: 34059471 microseconds
+  norm2 = 1.29352e+06
+normInf = 15749.3
+Runtime: 34638373 microseconds
+  norm2 = 1.27781e+06
+normInf = 15515.7
+Runtime: 35224147 microseconds
+  norm2 = 1.26254e+06
+normInf = 15286.9
+Runtime: 35808653 microseconds
+  norm2 = 1.24768e+06
+normInf = 15062.8
+Runtime: 36401470 microseconds
+  norm2 = 1.23323e+06
+normInf = 14843.5
+Runtime: 36996297 microseconds
+  norm2 = 1.21916e+06
+normInf = 14628.7
+Runtime: 37593741 microseconds
+  norm2 = 1.20546e+06
+normInf = 14418.5
+Runtime: 38185600 microseconds
+  norm2 = 1.19212e+06
+normInf = 14212.6
+Runtime: 38776631 microseconds
+  norm2 = 1.17911e+06
+normInf = 14011.1
+Runtime: 39367879 microseconds
+  norm2 = 1.16643e+06
+normInf = 13813.8
+Runtime: 39972970 microseconds
+  norm2 = 1.15407e+06
+normInf = 13620.6
+Runtime: 40565398 microseconds
+  norm2 = 1.14201e+06
+normInf = 13431.4
+Runtime: 41158281 microseconds
+  norm2 = 1.13023e+06
+normInf = 13246.2
+Runtime: 41750657 microseconds
+  norm2 = 1.11874e+06
+normInf = 13064.8
+Runtime: 42357976 microseconds
+  norm2 = 1.10751e+06
+normInf = 12887.1
+Runtime: 42949517 microseconds
+  norm2 = 1.09655e+06
+normInf = 12713.1
+Runtime: 43542446 microseconds
+  norm2 = 1.08583e+06
+normInf = 12542.7
+Runtime: 44135145 microseconds
+  norm2 = 1.07536e+06
+normInf = 12375.7
+Runtime: 44729098 microseconds
+  norm2 = 1.06512e+06
+normInf = 12212.2
+Runtime: 45323028 microseconds
+  norm2 = 1.0551e+06
+normInf = 12052
+Runtime: 45918758 microseconds
+  norm2 = 1.0453e+06
+normInf = 11895
+Runtime: 46518739 microseconds
+  norm2 = 1.03571e+06
+normInf = 11741.1
+Runtime: 47113088 microseconds
+  norm2 = 1.02632e+06
+normInf = 11590.3
+Runtime: 47722500 microseconds
+  norm2 = 1.01713e+06
+normInf = 11442.6
+Runtime: 48316795 microseconds
+  norm2 = 1.00813e+06
+normInf = 11318.2
+Runtime: 48911546 microseconds
+  norm2 = 999313
+normInf = 11195.7
+Runtime: 49506639 microseconds
+  norm2 = 990673
+normInf = 11075.1
+Runtime: 50097493 microseconds
+  norm2 = 982206
+normInf = 10956.4
+Runtime: 50679476 microseconds
+  norm2 = 973906
+normInf = 10839.5
+Runtime: 51259558 microseconds
+  norm2 = 965767
+normInf = 10724.4
+Runtime: 51840463 microseconds
+  norm2 = 957785
+normInf = 10611
+Runtime: 52427925 microseconds
+  norm2 = 949956
+normInf = 10499.4
+Runtime: 53010826 microseconds
+  norm2 = 942274
+normInf = 10389.6
+Runtime: 53595486 microseconds
+  norm2 = 934736
+normInf = 10281.4
+Runtime: 54179735 microseconds
+  norm2 = 927337
+normInf = 10174.8
+Runtime: 54770624 microseconds
+  norm2 = 920073
+normInf = 10070
+Runtime: 55358421 microseconds
+  norm2 = 912941
+normInf = 9966.67
+Runtime: 55940708 microseconds
+  norm2 = 905936
+normInf = 9864.97
+Runtime: 56523706 microseconds
+  norm2 = 899056
+normInf = 9764.82
+Runtime: 57110589 microseconds
+  norm2 = 892296
+normInf = 9666.2
+Runtime: 57708264 microseconds
+  norm2 = 885653
+normInf = 9569.08
+Runtime: 58305708 microseconds
+  norm2 = 879125
+normInf = 9473.44
+Runtime: 58903867 microseconds
+Running resolution=1000, MPI processes=34
+  norm2 = 1.76423e+07
+normInf = 499000
+Runtime: 77986 microseconds
+  norm2 = 1.27831e+07
+normInf = 311875
+Runtime: 716739 microseconds
+  norm2 = 1.02136e+07
+normInf = 218313
+Runtime: 1301722 microseconds
+  norm2 = 8.59604e+06
+normInf = 187125
+Runtime: 1873368 microseconds
+  norm2 = 7.47254e+06
+normInf = 160811
+Runtime: 2441672 microseconds
+  norm2 = 6.64104e+06
+normInf = 139369
+Runtime: 3019052 microseconds
+  norm2 = 5.99765e+06
+normInf = 121948
+Runtime: 3600776 microseconds
+  norm2 = 5.48313e+06
+normInf = 107694
+Runtime: 4188199 microseconds
+  norm2 = 5.06106e+06
+normInf = 95915.4
+Runtime: 4770417 microseconds
+  norm2 = 4.70777e+06
+normInf = 86077.9
+Runtime: 5355345 microseconds
+  norm2 = 4.40713e+06
+normInf = 77777.5
+Runtime: 5938428 microseconds
+  norm2 = 4.14778e+06
+normInf = 72916.4
+Runtime: 6525467 microseconds
+  norm2 = 3.92146e+06
+normInf = 68432.3
+Runtime: 7112660 microseconds
+  norm2 = 3.72201e+06
+normInf = 64313.7
+Runtime: 7699198 microseconds
+  norm2 = 3.54472e+06
+normInf = 60538.2
+Runtime: 8281927 microseconds
+  norm2 = 3.38597e+06
+normInf = 57078.8
+Runtime: 8860606 microseconds
+  norm2 = 3.24287e+06
+normInf = 53907.8
+Runtime: 9443331 microseconds
+  norm2 = 3.11313e+06
+normInf = 50998
+Runtime: 10025410 microseconds
+  norm2 = 2.99489e+06
+normInf = 48324.2
+Runtime: 10603037 microseconds
+  norm2 = 2.88663e+06
+normInf = 45863.2
+Runtime: 11191147 microseconds
+  norm2 = 2.78708e+06
+normInf = 43594.2
+Runtime: 11767554 microseconds
+  norm2 = 2.69518e+06
+normInf = 41498.3
+Runtime: 12346085 microseconds
+  norm2 = 2.61006e+06
+normInf = 39558.8
+Runtime: 12922411 microseconds
+  norm2 = 2.53096e+06
+normInf = 38194.7
+Runtime: 13503714 microseconds
+  norm2 = 2.45724e+06
+normInf = 36892.6
+Runtime: 14081159 microseconds
+  norm2 = 2.38834e+06
+normInf = 35650.8
+Runtime: 14662630 microseconds
+  norm2 = 2.32378e+06
+normInf = 34467.1
+Runtime: 15269528 microseconds
+  norm2 = 2.26316e+06
+normInf = 33339.1
+Runtime: 15847689 microseconds
+  norm2 = 2.2061e+06
+normInf = 32264.2
+Runtime: 16425799 microseconds
+  norm2 = 2.15229e+06
+normInf = 31240
+Runtime: 17003396 microseconds
+  norm2 = 2.10144e+06
+normInf = 30263.7
+Runtime: 17582216 microseconds
+  norm2 = 2.05332e+06
+normInf = 29333
+Runtime: 18159808 microseconds
+  norm2 = 2.00768e+06
+normInf = 28445.2
+Runtime: 18743544 microseconds
+  norm2 = 1.96435e+06
+normInf = 27598.2
+Runtime: 19309902 microseconds
+  norm2 = 1.92314e+06
+normInf = 26789.7
+Runtime: 19866339 microseconds
+  norm2 = 1.88389e+06
+normInf = 26017.5
+Runtime: 20424092 microseconds
+  norm2 = 1.84646e+06
+normInf = 25279.6
+Runtime: 20983209 microseconds
+  norm2 = 1.81072e+06
+normInf = 24574.1
+Runtime: 21551323 microseconds
+  norm2 = 1.77655e+06
+normInf = 23899.3
+Runtime: 22129414 microseconds
+  norm2 = 1.74385e+06
+normInf = 23379.7
+Runtime: 22698525 microseconds
+  norm2 = 1.71253e+06
+normInf = 22875.6
+Runtime: 23266436 microseconds
+  norm2 = 1.68248e+06
+normInf = 22386.4
+Runtime: 23835550 microseconds
+  norm2 = 1.65364e+06
+normInf = 21912
+Runtime: 24404518 microseconds
+  norm2 = 1.62592e+06
+normInf = 21451.8
+Runtime: 24974627 microseconds
+  norm2 = 1.59927e+06
+normInf = 21005.6
+Runtime: 25543912 microseconds
+  norm2 = 1.57361e+06
+normInf = 20572.8
+Runtime: 26128133 microseconds
+  norm2 = 1.54889e+06
+normInf = 20153
+Runtime: 26700405 microseconds
+  norm2 = 1.52506e+06
+normInf = 19745.9
+Runtime: 27269588 microseconds
+  norm2 = 1.50207e+06
+normInf = 19351
+Runtime: 27844614 microseconds
+  norm2 = 1.47987e+06
+normInf = 18967.8
+Runtime: 28414555 microseconds
+  norm2 = 1.45842e+06
+normInf = 18596.1
+Runtime: 28989246 microseconds
+  norm2 = 1.43769e+06
+normInf = 18235.4
+Runtime: 29560525 microseconds
+  norm2 = 1.41763e+06
+normInf = 17885.4
+Runtime: 30137672 microseconds
+  norm2 = 1.39821e+06
+normInf = 17545.5
+Runtime: 30708590 microseconds
+  norm2 = 1.3794e+06
+normInf = 17215.6
+Runtime: 31286713 microseconds
+  norm2 = 1.36117e+06
+normInf = 16895.2
+Runtime: 31863839 microseconds
+  norm2 = 1.34349e+06
+normInf = 16584
+Runtime: 32440601 microseconds
+  norm2 = 1.32634e+06
+normInf = 16281.7
+Runtime: 33013877 microseconds
+  norm2 = 1.30969e+06
+normInf = 15988
+Runtime: 33589465 microseconds
+  norm2 = 1.29352e+06
+normInf = 15749.3
+Runtime: 34160645 microseconds
+  norm2 = 1.27781e+06
+normInf = 15515.7
+Runtime: 34736484 microseconds
+  norm2 = 1.26254e+06
+normInf = 15286.9
+Runtime: 35308785 microseconds
+  norm2 = 1.24768e+06
+normInf = 15062.8
+Runtime: 35884038 microseconds
+  norm2 = 1.23323e+06
+normInf = 14843.5
+Runtime: 36456778 microseconds
+  norm2 = 1.21916e+06
+normInf = 14628.7
+Runtime: 37031777 microseconds
+  norm2 = 1.20546e+06
+normInf = 14418.5
+Runtime: 37604814 microseconds
+  norm2 = 1.19212e+06
+normInf = 14212.6
+Runtime: 38178488 microseconds
+  norm2 = 1.17911e+06
+normInf = 14011.1
+Runtime: 38751710 microseconds
+  norm2 = 1.16643e+06
+normInf = 13813.8
+Runtime: 39327799 microseconds
+  norm2 = 1.15407e+06
+normInf = 13620.6
+Runtime: 39901887 microseconds
+  norm2 = 1.14201e+06
+normInf = 13431.4
+Runtime: 40476666 microseconds
+  norm2 = 1.13023e+06
+normInf = 13246.2
+Runtime: 41051313 microseconds
+  norm2 = 1.11874e+06
+normInf = 13064.8
+Runtime: 41626526 microseconds
+  norm2 = 1.10751e+06
+normInf = 12887.1
+Runtime: 42202796 microseconds
+  norm2 = 1.09655e+06
+normInf = 12713.1
+Runtime: 43229608 microseconds
+  norm2 = 1.08583e+06
+normInf = 12542.7
+Runtime: 43804801 microseconds
+  norm2 = 1.07536e+06
+normInf = 12375.7
+Runtime: 44383874 microseconds
+  norm2 = 1.06512e+06
+normInf = 12212.2
+Runtime: 44967586 microseconds
+  norm2 = 1.0551e+06
+normInf = 12052
+Runtime: 45542790 microseconds
+  norm2 = 1.0453e+06
+normInf = 11895
+Runtime: 46121092 microseconds
+  norm2 = 1.03571e+06
+normInf = 11741.1
+Runtime: 46696913 microseconds
+  norm2 = 1.02632e+06
+normInf = 11590.3
+Runtime: 47273052 microseconds
+  norm2 = 1.01713e+06
+normInf = 11442.6
+Runtime: 47981047 microseconds
+  norm2 = 1.00813e+06
+normInf = 11318.2
+Runtime: 48558055 microseconds
+  norm2 = 999313
+normInf = 11195.7
+Runtime: 49134591 microseconds
+  norm2 = 990673
+normInf = 11075.1
+Runtime: 49713473 microseconds
+  norm2 = 982206
+normInf = 10956.4
+Runtime: 50290306 microseconds
+  norm2 = 973906
+normInf = 10839.5
+Runtime: 50868599 microseconds
+  norm2 = 965767
+normInf = 10724.4
+Runtime: 51446540 microseconds
+  norm2 = 957785
+normInf = 10611
+Runtime: 52031107 microseconds
+  norm2 = 949956
+normInf = 10499.4
+Runtime: 52609125 microseconds
+  norm2 = 942274
+normInf = 10389.6
+Runtime: 53189931 microseconds
+  norm2 = 934736
+normInf = 10281.4
+Runtime: 53767718 microseconds
+  norm2 = 927337
+normInf = 10174.8
+Runtime: 54347998 microseconds
+  norm2 = 920073
+normInf = 10070
+Runtime: 54929116 microseconds
+  norm2 = 912941
+normInf = 9966.67
+Runtime: 55509739 microseconds
+  norm2 = 905936
+normInf = 9864.97
+Runtime: 56090720 microseconds
+  norm2 = 899056
+normInf = 9764.82
+Runtime: 56682233 microseconds
+  norm2 = 892296
+normInf = 9666.2
+Runtime: 57263895 microseconds
+  norm2 = 885653
+normInf = 9569.08
+Runtime: 57844641 microseconds
+  norm2 = 879125
+normInf = 9473.44
+Runtime: 58425079 microseconds
+Running resolution=1000, MPI processes=35
+  norm2 = 1.76423e+07
+normInf = 499000
+Runtime: 77991 microseconds
+  norm2 = 1.27831e+07
+normInf = 311875
+Runtime: 699650 microseconds
+  norm2 = 1.02136e+07
+normInf = 218313
+Runtime: 1323354 microseconds
+  norm2 = 8.59604e+06
+normInf = 187125
+Runtime: 1947219 microseconds
+  norm2 = 7.47254e+06
+normInf = 160811
+Runtime: 2570906 microseconds
+  norm2 = 6.64104e+06
+normInf = 139369
+Runtime: 3195566 microseconds
+  norm2 = 5.99765e+06
+normInf = 121948
+Runtime: 3752497 microseconds
+  norm2 = 5.48313e+06
+normInf = 107694
+Runtime: 4313620 microseconds
+  norm2 = 5.06106e+06
+normInf = 95915.4
+Runtime: 4874975 microseconds
+  norm2 = 4.70777e+06
+normInf = 86077.9
+Runtime: 5434926 microseconds
+  norm2 = 4.40713e+06
+normInf = 77777.5
+Runtime: 5995190 microseconds
+  norm2 = 4.14778e+06
+normInf = 72916.4
+Runtime: 6555116 microseconds
+  norm2 = 3.92146e+06
+normInf = 68432.3
+Runtime: 7114778 microseconds
+  norm2 = 3.72201e+06
+normInf = 64313.7
+Runtime: 7675243 microseconds
+  norm2 = 3.54472e+06
+normInf = 60538.2
+Runtime: 8236232 microseconds
+  norm2 = 3.38597e+06
+normInf = 57078.8
+Runtime: 8797458 microseconds
+  norm2 = 3.24287e+06
+normInf = 53907.8
+Runtime: 9365290 microseconds
+  norm2 = 3.11313e+06
+normInf = 50998
+Runtime: 9928443 microseconds
+  norm2 = 2.99489e+06
+normInf = 48324.2
+Runtime: 10489950 microseconds
+  norm2 = 2.88663e+06
+normInf = 45863.2
+Runtime: 11071201 microseconds
+  norm2 = 2.78708e+06
+normInf = 43594.2
+Runtime: 11632552 microseconds
+  norm2 = 2.69518e+06
+normInf = 41498.3
+Runtime: 12194718 microseconds
+  norm2 = 2.61006e+06
+normInf = 39558.8
+Runtime: 12757796 microseconds
+  norm2 = 2.53096e+06
+normInf = 38194.7
+Runtime: 13321724 microseconds
+  norm2 = 2.45724e+06
+normInf = 36892.6
+Runtime: 13882954 microseconds
+  norm2 = 2.38834e+06
+normInf = 35650.8
+Runtime: 14445460 microseconds
+  norm2 = 2.32378e+06
+normInf = 34467.1
+Runtime: 15008669 microseconds
+  norm2 = 2.26316e+06
+normInf = 33339.1
+Runtime: 15570955 microseconds
+  norm2 = 2.2061e+06
+normInf = 32264.2
+Runtime: 16134674 microseconds
+  norm2 = 2.15229e+06
+normInf = 31240
+Runtime: 16698425 microseconds
+  norm2 = 2.10144e+06
+normInf = 30263.7
+Runtime: 17263286 microseconds
+  norm2 = 2.05332e+06
+normInf = 29333
+Runtime: 17827643 microseconds
+  norm2 = 2.00768e+06
+normInf = 28445.2
+Runtime: 18391353 microseconds
+  norm2 = 1.96435e+06
+normInf = 27598.2
+Runtime: 18955269 microseconds
+  norm2 = 1.92314e+06
+normInf = 26789.7
+Runtime: 19520101 microseconds
+  norm2 = 1.88389e+06
+normInf = 26017.5
+Runtime: 20084769 microseconds
+  norm2 = 1.84646e+06
+normInf = 25279.6
+Runtime: 20649383 microseconds
+  norm2 = 1.81072e+06
+normInf = 24574.1
+Runtime: 21213056 microseconds
+  norm2 = 1.77655e+06
+normInf = 23899.3
+Runtime: 21779534 microseconds
+  norm2 = 1.74385e+06
+normInf = 23379.7
+Runtime: 22345065 microseconds
+  norm2 = 1.71253e+06
+normInf = 22875.6
+Runtime: 22912371 microseconds
+  norm2 = 1.68248e+06
+normInf = 22386.4
+Runtime: 23478624 microseconds
+  norm2 = 1.65364e+06
+normInf = 21912
+Runtime: 24044725 microseconds
+  norm2 = 1.62592e+06
+normInf = 21451.8
+Runtime: 24611023 microseconds
+  norm2 = 1.59927e+06
+normInf = 21005.6
+Runtime: 25177464 microseconds
+  norm2 = 1.57361e+06
+normInf = 20572.8
+Runtime: 25744637 microseconds
+  norm2 = 1.54889e+06
+normInf = 20153
+Runtime: 26311598 microseconds
+  norm2 = 1.52506e+06
+normInf = 19745.9
+Runtime: 26878758 microseconds
+  norm2 = 1.50207e+06
+normInf = 19351
+Runtime: 27444722 microseconds
+  norm2 = 1.47987e+06
+normInf = 18967.8
+Runtime: 28012106 microseconds
+  norm2 = 1.45842e+06
+normInf = 18596.1
+Runtime: 28580435 microseconds
+  norm2 = 1.43769e+06
+normInf = 18235.4
+Runtime: 29152104 microseconds
+  norm2 = 1.41763e+06
+normInf = 17885.4
+Runtime: 29720557 microseconds
+  norm2 = 1.39821e+06
+normInf = 17545.5
+Runtime: 30289917 microseconds
+  norm2 = 1.3794e+06
+normInf = 17215.6
+Runtime: 30858850 microseconds
+  norm2 = 1.36117e+06
+normInf = 16895.2
+Runtime: 31428229 microseconds
+  norm2 = 1.34349e+06
+normInf = 16584
+Runtime: 31996196 microseconds
+  norm2 = 1.32634e+06
+normInf = 16281.7
+Runtime: 32563793 microseconds
+  norm2 = 1.30969e+06
+normInf = 15988
+Runtime: 33132879 microseconds
+  norm2 = 1.29352e+06
+normInf = 15749.3
+Runtime: 33702276 microseconds
+  norm2 = 1.27781e+06
+normInf = 15515.7
+Runtime: 34272198 microseconds
+  norm2 = 1.26254e+06
+normInf = 15286.9
+Runtime: 34840314 microseconds
+  norm2 = 1.24768e+06
+normInf = 15062.8
+Runtime: 35419514 microseconds
+  norm2 = 1.23323e+06
+normInf = 14843.5
+Runtime: 35989526 microseconds
+  norm2 = 1.21916e+06
+normInf = 14628.7
+Runtime: 36562167 microseconds
+  norm2 = 1.20546e+06
+normInf = 14418.5
+Runtime: 37133779 microseconds
+  norm2 = 1.19212e+06
+normInf = 14212.6
+Runtime: 37704345 microseconds
+  norm2 = 1.17911e+06
+normInf = 14011.1
+Runtime: 38280962 microseconds
+  norm2 = 1.16643e+06
+normInf = 13813.8
+Runtime: 38851633 microseconds
+  norm2 = 1.15407e+06
+normInf = 13620.6
+Runtime: 39423559 microseconds
+  norm2 = 1.14201e+06
+normInf = 13431.4
+Runtime: 39996250 microseconds
+  norm2 = 1.13023e+06
+normInf = 13246.2
+Runtime: 40568834 microseconds
+  norm2 = 1.11874e+06
+normInf = 13064.8
+Runtime: 41138847 microseconds
+  norm2 = 1.10751e+06
+normInf = 12887.1
+Runtime: 41711802 microseconds
+  norm2 = 1.09655e+06
+normInf = 12713.1
+Runtime: 42285386 microseconds
+  norm2 = 1.08583e+06
+normInf = 12542.7
+Runtime: 42855716 microseconds
+  norm2 = 1.07536e+06
+normInf = 12375.7
+Runtime: 43430579 microseconds
+  norm2 = 1.06512e+06
+normInf = 12212.2
+Runtime: 44002221 microseconds
+  norm2 = 1.0551e+06
+normInf = 12052
+Runtime: 44577248 microseconds
+  norm2 = 1.0453e+06
+normInf = 11895
+Runtime: 45149534 microseconds
+  norm2 = 1.03571e+06
+normInf = 11741.1
+Runtime: 45719987 microseconds
+  norm2 = 1.02632e+06
+normInf = 11590.3
+Runtime: 46293234 microseconds
+  norm2 = 1.01713e+06
+normInf = 11442.6
+Runtime: 46868097 microseconds
+  norm2 = 1.00813e+06
+normInf = 11318.2
+Runtime: 47443546 microseconds
+  norm2 = 999313
+normInf = 11195.7
+Runtime: 48019559 microseconds
+  norm2 = 990673
+normInf = 11075.1
+Runtime: 48604303 microseconds
+  norm2 = 982206
+normInf = 10956.4
+Runtime: 49180419 microseconds
+  norm2 = 973906
+normInf = 10839.5
+Runtime: 49755757 microseconds
+  norm2 = 965767
+normInf = 10724.4
+Runtime: 50329019 microseconds
+  norm2 = 957785
+normInf = 10611
+Runtime: 50906389 microseconds
+  norm2 = 949956
+normInf = 10499.4
+Runtime: 51484700 microseconds
+  norm2 = 942274
+normInf = 10389.6
+Runtime: 52061219 microseconds
+  norm2 = 934736
+normInf = 10281.4
+Runtime: 52638054 microseconds
+  norm2 = 927337
+normInf = 10174.8
+Runtime: 53214695 microseconds
+  norm2 = 920073
+normInf = 10070
+Runtime: 53789667 microseconds
+  norm2 = 912941
+normInf = 9966.67
+Runtime: 54368802 microseconds
+  norm2 = 905936
+normInf = 9864.97
+Runtime: 54946644 microseconds
+  norm2 = 899056
+normInf = 9764.82
+Runtime: 55523939 microseconds
+  norm2 = 892296
+normInf = 9666.2
+Runtime: 56101740 microseconds
+  norm2 = 885653
+normInf = 9569.08
+Runtime: 56681402 microseconds
+  norm2 = 879125
+normInf = 9473.44
+Runtime: 57263818 microseconds
+Running resolution=1000, MPI processes=36
+  norm2 = 1.76423e+07
+normInf = 499000
+Runtime: 56006 microseconds
+  norm2 = 1.27831e+07
+normInf = 311875
+Runtime: 624600 microseconds
+  norm2 = 1.02136e+07
+normInf = 218313
+Runtime: 1207797 microseconds
+  norm2 = 8.59604e+06
+normInf = 187125
+Runtime: 1795559 microseconds
+  norm2 = 7.47254e+06
+normInf = 160811
+Runtime: 2380637 microseconds
+  norm2 = 6.64104e+06
+normInf = 139369
+Runtime: 2964788 microseconds
+  norm2 = 5.99765e+06
+normInf = 121948
+Runtime: 3546460 microseconds
+  norm2 = 5.48313e+06
+normInf = 107694
+Runtime: 4132620 microseconds
+  norm2 = 5.06106e+06
+normInf = 95915.4
+Runtime: 4717003 microseconds
+  norm2 = 4.70777e+06
+normInf = 86077.9
+Runtime: 5307081 microseconds
+  norm2 = 4.40713e+06
+normInf = 77777.5
+Runtime: 5891640 microseconds
+  norm2 = 4.14778e+06
+normInf = 72916.4
+Runtime: 6481477 microseconds
+  norm2 = 3.92146e+06
+normInf = 68432.3
+Runtime: 7065943 microseconds
+  norm2 = 3.72201e+06
+normInf = 64313.7
+Runtime: 7655941 microseconds
+  norm2 = 3.54472e+06
+normInf = 60538.2
+Runtime: 8239609 microseconds
+  norm2 = 3.38597e+06
+normInf = 57078.8
+Runtime: 8827189 microseconds
+  norm2 = 3.24287e+06
+normInf = 53907.8
+Runtime: 9411659 microseconds
+  norm2 = 3.11313e+06
+normInf = 50998
+Runtime: 10001204 microseconds
+  norm2 = 2.99489e+06
+normInf = 48324.2
+Runtime: 10586349 microseconds
+  norm2 = 2.88663e+06
+normInf = 45863.2
+Runtime: 11176320 microseconds
+  norm2 = 2.78708e+06
+normInf = 43594.2
+Runtime: 11762492 microseconds
+  norm2 = 2.69518e+06
+normInf = 41498.3
+Runtime: 12354246 microseconds
+  norm2 = 2.61006e+06
+normInf = 39558.8
+Runtime: 12941205 microseconds
+  norm2 = 2.53096e+06
+normInf = 38194.7
+Runtime: 13528709 microseconds
+  norm2 = 2.45724e+06
+normInf = 36892.6
+Runtime: 14124869 microseconds
+  norm2 = 2.38834e+06
+normInf = 35650.8
+Runtime: 14712145 microseconds
+  norm2 = 2.32378e+06
+normInf = 34467.1
+Runtime: 15304573 microseconds
+  norm2 = 2.26316e+06
+normInf = 33339.1
+Runtime: 15891899 microseconds
+  norm2 = 2.2061e+06
+normInf = 32264.2
+Runtime: 16480230 microseconds
+  norm2 = 2.15229e+06
+normInf = 31240
+Runtime: 17069225 microseconds
+  norm2 = 2.10144e+06
+normInf = 30263.7
+Runtime: 17659123 microseconds
+  norm2 = 2.05332e+06
+normInf = 29333
+Runtime: 18246703 microseconds
+  norm2 = 2.00768e+06
+normInf = 28445.2
+Runtime: 18844897 microseconds
+  norm2 = 1.96435e+06
+normInf = 27598.2
+Runtime: 19434085 microseconds
+  norm2 = 1.92314e+06
+normInf = 26789.7
+Runtime: 20027343 microseconds
+  norm2 = 1.88389e+06
+normInf = 26017.5
+Runtime: 20614847 microseconds
+  norm2 = 1.84646e+06
+normInf = 25279.6
+Runtime: 21213483 microseconds
+  norm2 = 1.81072e+06
+normInf = 24574.1
+Runtime: 21802563 microseconds
+  norm2 = 1.77655e+06
+normInf = 23899.3
+Runtime: 22393390 microseconds
+  norm2 = 1.74385e+06
+normInf = 23379.7
+Runtime: 22983373 microseconds
+  norm2 = 1.71253e+06
+normInf = 22875.6
+Runtime: 23577269 microseconds
+  norm2 = 1.68248e+06
+normInf = 22386.4
+Runtime: 24143287 microseconds
+  norm2 = 1.65364e+06
+normInf = 21912
+Runtime: 24708444 microseconds
+  norm2 = 1.62592e+06
+normInf = 21451.8
+Runtime: 25277652 microseconds
+  norm2 = 1.59927e+06
+normInf = 21005.6
+Runtime: 25843451 microseconds
+  norm2 = 1.57361e+06
+normInf = 20572.8
+Runtime: 26413172 microseconds
+  norm2 = 1.54889e+06
+normInf = 20153
+Runtime: 26988752 microseconds
+  norm2 = 1.52506e+06
+normInf = 19745.9
+Runtime: 27570476 microseconds
+  norm2 = 1.50207e+06
+normInf = 19351
+Runtime: 28148780 microseconds
+  norm2 = 1.47987e+06
+normInf = 18967.8
+Runtime: 28731443 microseconds
+  norm2 = 1.45842e+06
+normInf = 18596.1
+Runtime: 29316789 microseconds
+  norm2 = 1.43769e+06
+normInf = 18235.4
+Runtime: 29897957 microseconds
+  norm2 = 1.41763e+06
+normInf = 17885.4
+Runtime: 30478709 microseconds
+  norm2 = 1.39821e+06
+normInf = 17545.5
+Runtime: 31062113 microseconds
+  norm2 = 1.3794e+06
+normInf = 17215.6
+Runtime: 31645743 microseconds
+  norm2 = 1.36117e+06
+normInf = 16895.2
+Runtime: 32228351 microseconds
+  norm2 = 1.34349e+06
+normInf = 16584
+Runtime: 32813224 microseconds
+  norm2 = 1.32634e+06
+normInf = 16281.7
+Runtime: 33395925 microseconds
+  norm2 = 1.30969e+06
+normInf = 15988
+Runtime: 33978254 microseconds
+  norm2 = 1.29352e+06
+normInf = 15749.3
+Runtime: 34564108 microseconds
+  norm2 = 1.27781e+06
+normInf = 15515.7
+Runtime: 35150877 microseconds
+  norm2 = 1.26254e+06
+normInf = 15286.9
+Runtime: 35735119 microseconds
+  norm2 = 1.24768e+06
+normInf = 15062.8
+Runtime: 36321283 microseconds
+  norm2 = 1.23323e+06
+normInf = 14843.5
+Runtime: 36906261 microseconds
+  norm2 = 1.21916e+06
+normInf = 14628.7
+Runtime: 37487845 microseconds
+  norm2 = 1.20546e+06
+normInf = 14418.5
+Runtime: 38070222 microseconds
+  norm2 = 1.19212e+06
+normInf = 14212.6
+Runtime: 38655679 microseconds
+  norm2 = 1.17911e+06
+normInf = 14011.1
+Runtime: 39242791 microseconds
+  norm2 = 1.16643e+06
+normInf = 13813.8
+Runtime: 39828400 microseconds
+  norm2 = 1.15407e+06
+normInf = 13620.6
+Runtime: 40413441 microseconds
+  norm2 = 1.14201e+06
+normInf = 13431.4
+Runtime: 41001542 microseconds
+  norm2 = 1.13023e+06
+normInf = 13246.2
+Runtime: 41587279 microseconds
+  norm2 = 1.11874e+06
+normInf = 13064.8
+Runtime: 42171951 microseconds
+  norm2 = 1.10751e+06
+normInf = 12887.1
+Runtime: 42758698 microseconds
+  norm2 = 1.09655e+06
+normInf = 12713.1
+Runtime: 43347416 microseconds
+  norm2 = 1.08583e+06
+normInf = 12542.7
+Runtime: 43934858 microseconds
+  norm2 = 1.07536e+06
+normInf = 12375.7
+Runtime: 44523768 microseconds
+  norm2 = 1.06512e+06
+normInf = 12212.2
+Runtime: 45110915 microseconds
+  norm2 = 1.0551e+06
+normInf = 12052
+Runtime: 45700769 microseconds
+  norm2 = 1.0453e+06
+normInf = 11895
+Runtime: 46286455 microseconds
+  norm2 = 1.03571e+06
+normInf = 11741.1
+Runtime: 46874570 microseconds
+  norm2 = 1.02632e+06
+normInf = 11590.3
+Runtime: 47464264 microseconds
+  norm2 = 1.01713e+06
+normInf = 11442.6
+Runtime: 48053582 microseconds
+  norm2 = 1.00813e+06
+normInf = 11318.2
+Runtime: 48644617 microseconds
+  norm2 = 999313
+normInf = 11195.7
+Runtime: 49235466 microseconds
+  norm2 = 990673
+normInf = 11075.1
+Runtime: 49827535 microseconds
+  norm2 = 982206
+normInf = 10956.4
+Runtime: 50415872 microseconds
+  norm2 = 973906
+normInf = 10839.5
+Runtime: 51005857 microseconds
+  norm2 = 965767
+normInf = 10724.4
+Runtime: 51598432 microseconds
+  norm2 = 957785
+normInf = 10611
+Runtime: 52191385 microseconds
+  norm2 = 949956
+normInf = 10499.4
+Runtime: 52783860 microseconds
+  norm2 = 942274
+normInf = 10389.6
+Runtime: 53375922 microseconds
+  norm2 = 934736
+normInf = 10281.4
+Runtime: 53967424 microseconds
+  norm2 = 927337
+normInf = 10174.8
+Runtime: 54556758 microseconds
+  norm2 = 920073
+normInf = 10070
+Runtime: 55147357 microseconds
+  norm2 = 912941
+normInf = 9966.67
+Runtime: 55739513 microseconds
+  norm2 = 905936
+normInf = 9864.97
+Runtime: 56331542 microseconds
+  norm2 = 899056
+normInf = 9764.82
+Runtime: 56924024 microseconds
+  norm2 = 892296
+normInf = 9666.2
+Runtime: 57516858 microseconds
+  norm2 = 885653
+normInf = 9569.08
+Runtime: 58105748 microseconds
+  norm2 = 879125
+normInf = 9473.44
+Runtime: 58698779 microseconds
+Running resolution=1000, MPI processes=37
+  norm2 = 1.76423e+07
+normInf = 499000
+Runtime: 73472 microseconds
+  norm2 = 1.27831e+07
+normInf = 311875
+Runtime: 687971 microseconds
+  norm2 = 1.02136e+07
+normInf = 218313
+Runtime: 1338484 microseconds
+  norm2 = 8.59604e+06
+normInf = 187125
+Runtime: 1916512 microseconds
+  norm2 = 7.47254e+06
+normInf = 160811
+Runtime: 2509468 microseconds
+  norm2 = 6.64104e+06
+normInf = 139369
+Runtime: 3085254 microseconds
+  norm2 = 5.99765e+06
+normInf = 121948
+Runtime: 3660825 microseconds
+  norm2 = 5.48313e+06
+normInf = 107694
+Runtime: 4237751 microseconds
+  norm2 = 5.06106e+06
+normInf = 95915.4
+Runtime: 4813538 microseconds
+  norm2 = 4.70777e+06
+normInf = 86077.9
+Runtime: 5391502 microseconds
+  norm2 = 4.40713e+06
+normInf = 77777.5
+Runtime: 5966742 microseconds
+  norm2 = 4.14778e+06
+normInf = 72916.4
+Runtime: 6543550 microseconds
+  norm2 = 3.92146e+06
+normInf = 68432.3
+Runtime: 7119276 microseconds
+  norm2 = 3.72201e+06
+normInf = 64313.7
+Runtime: 7696498 microseconds
+  norm2 = 3.54472e+06
+normInf = 60538.2
+Runtime: 8272748 microseconds
+  norm2 = 3.38597e+06
+normInf = 57078.8
+Runtime: 8850125 microseconds
+  norm2 = 3.24287e+06
+normInf = 53907.8
+Runtime: 9429018 microseconds
+  norm2 = 3.11313e+06
+normInf = 50998
+Runtime: 10008373 microseconds
+  norm2 = 2.99489e+06
+normInf = 48324.2
+Runtime: 10585688 microseconds
+  norm2 = 2.88663e+06
+normInf = 45863.2
+Runtime: 11165950 microseconds
+  norm2 = 2.78708e+06
+normInf = 43594.2
+Runtime: 11746825 microseconds
+  norm2 = 2.69518e+06
+normInf = 41498.3
+Runtime: 12325684 microseconds
+  norm2 = 2.61006e+06
+normInf = 39558.8
+Runtime: 12905532 microseconds
+  norm2 = 2.53096e+06
+normInf = 38194.7
+Runtime: 13485505 microseconds
+  norm2 = 2.45724e+06
+normInf = 36892.6
+Runtime: 14065852 microseconds
+  norm2 = 2.38834e+06
+normInf = 35650.8
+Runtime: 14646459 microseconds
+  norm2 = 2.32378e+06
+normInf = 34467.1
+Runtime: 15226131 microseconds
+  norm2 = 2.26316e+06
+normInf = 33339.1
+Runtime: 15806103 microseconds
+  norm2 = 2.2061e+06
+normInf = 32264.2
+Runtime: 16384868 microseconds
+  norm2 = 2.15229e+06
+normInf = 31240
+Runtime: 16979539 microseconds
+  norm2 = 2.10144e+06
+normInf = 30263.7
+Runtime: 17568595 microseconds
+  norm2 = 2.05332e+06
+normInf = 29333
+Runtime: 18148812 microseconds
+  norm2 = 2.00768e+06
+normInf = 28445.2
+Runtime: 18728431 microseconds
+  norm2 = 1.96435e+06
+normInf = 27598.2
+Runtime: 19310111 microseconds
+  norm2 = 1.92314e+06
+normInf = 26789.7
+Runtime: 19890652 microseconds
+  norm2 = 1.88389e+06
+normInf = 26017.5
+Runtime: 20473652 microseconds
+  norm2 = 1.84646e+06
+normInf = 25279.6
+Runtime: 21055179 microseconds
+  norm2 = 1.81072e+06
+normInf = 24574.1
+Runtime: 21644903 microseconds
+  norm2 = 1.77655e+06
+normInf = 23899.3
+Runtime: 22231433 microseconds
+  norm2 = 1.74385e+06
+normInf = 23379.7
+Runtime: 22812160 microseconds
+  norm2 = 1.71253e+06
+normInf = 22875.6
+Runtime: 23394443 microseconds
+  norm2 = 1.68248e+06
+normInf = 22386.4
+Runtime: 23978349 microseconds
+  norm2 = 1.65364e+06
+normInf = 21912
+Runtime: 24559796 microseconds
+  norm2 = 1.62592e+06
+normInf = 21451.8
+Runtime: 25143414 microseconds
+  norm2 = 1.59927e+06
+normInf = 21005.6
+Runtime: 25727705 microseconds
+  norm2 = 1.57361e+06
+normInf = 20572.8
+Runtime: 26311375 microseconds
+  norm2 = 1.54889e+06
+normInf = 20153
+Runtime: 26894547 microseconds
+  norm2 = 1.52506e+06
+normInf = 19745.9
+Runtime: 27479583 microseconds
+  norm2 = 1.50207e+06
+normInf = 19351
+Runtime: 28065351 microseconds
+  norm2 = 1.47987e+06
+normInf = 18967.8
+Runtime: 28650250 microseconds
+  norm2 = 1.45842e+06
+normInf = 18596.1
+Runtime: 29236235 microseconds
+  norm2 = 1.43769e+06
+normInf = 18235.4
+Runtime: 29819818 microseconds
+  norm2 = 1.41763e+06
+normInf = 17885.4
+Runtime: 30404074 microseconds
+  norm2 = 1.39821e+06
+normInf = 17545.5
+Runtime: 30988486 microseconds
+  norm2 = 1.3794e+06
+normInf = 17215.6
+Runtime: 31573914 microseconds
+  norm2 = 1.36117e+06
+normInf = 16895.2
+Runtime: 32160509 microseconds
+  norm2 = 1.34349e+06
+normInf = 16584
+Runtime: 32749078 microseconds
+  norm2 = 1.32634e+06
+normInf = 16281.7
+Runtime: 33349514 microseconds
+  norm2 = 1.30969e+06
+normInf = 15988
+Runtime: 33936472 microseconds
+  norm2 = 1.29352e+06
+normInf = 15749.3
+Runtime: 34525858 microseconds
+  norm2 = 1.27781e+06
+normInf = 15515.7
+Runtime: 35113647 microseconds
+  norm2 = 1.26254e+06
+normInf = 15286.9
+Runtime: 35699263 microseconds
+  norm2 = 1.24768e+06
+normInf = 15062.8
+Runtime: 36284849 microseconds
+  norm2 = 1.23323e+06
+normInf = 14843.5
+Runtime: 36873292 microseconds
+  norm2 = 1.21916e+06
+normInf = 14628.7
+Runtime: 37459549 microseconds
+  norm2 = 1.20546e+06
+normInf = 14418.5
+Runtime: 38048513 microseconds
+  norm2 = 1.19212e+06
+normInf = 14212.6
+Runtime: 38635457 microseconds
+  norm2 = 1.17911e+06
+normInf = 14011.1
+Runtime: 39223354 microseconds
+  norm2 = 1.16643e+06
+normInf = 13813.8
+Runtime: 39809583 microseconds
+  norm2 = 1.15407e+06
+normInf = 13620.6
+Runtime: 40397673 microseconds
+  norm2 = 1.14201e+06
+normInf = 13431.4
+Runtime: 40984781 microseconds
+  norm2 = 1.13023e+06
+normInf = 13246.2
+Runtime: 41573843 microseconds
+  norm2 = 1.11874e+06
+normInf = 13064.8
+Runtime: 42160828 microseconds
+  norm2 = 1.10751e+06
+normInf = 12887.1
+Runtime: 42750611 microseconds
+  norm2 = 1.09655e+06
+normInf = 12713.1
+Runtime: 43339302 microseconds
+  norm2 = 1.08583e+06
+normInf = 12542.7
+Runtime: 43929264 microseconds
+  norm2 = 1.07536e+06
+normInf = 12375.7
+Runtime: 44521205 microseconds
+  norm2 = 1.06512e+06
+normInf = 12212.2
+Runtime: 45112556 microseconds
+  norm2 = 1.0551e+06
+normInf = 12052
+Runtime: 45701110 microseconds
+  norm2 = 1.0453e+06
+normInf = 11895
+Runtime: 46291373 microseconds
+  norm2 = 1.03571e+06
+normInf = 11741.1
+Runtime: 46883262 microseconds
+  norm2 = 1.02632e+06
+normInf = 11590.3
+Runtime: 47474307 microseconds
+  norm2 = 1.01713e+06
+normInf = 11442.6
+Runtime: 48064849 microseconds
+  norm2 = 1.00813e+06
+normInf = 11318.2
+Runtime: 48656095 microseconds
+  norm2 = 999313
+normInf = 11195.7
+Runtime: 49248450 microseconds
+  norm2 = 990673
+normInf = 11075.1
+Runtime: 49840628 microseconds
+  norm2 = 982206
+normInf = 10956.4
+Runtime: 50438566 microseconds
+  norm2 = 973906
+normInf = 10839.5
+Runtime: 51030849 microseconds
+  norm2 = 965767
+normInf = 10724.4
+Runtime: 51623594 microseconds
+  norm2 = 957785
+normInf = 10611
+Runtime: 52217348 microseconds
+  norm2 = 949956
+normInf = 10499.4
+Runtime: 52809359 microseconds
+  norm2 = 942274
+normInf = 10389.6
+Runtime: 53403338 microseconds
+  norm2 = 934736
+normInf = 10281.4
+Runtime: 53996700 microseconds
+  norm2 = 927337
+normInf = 10174.8
+Runtime: 54587428 microseconds
+  norm2 = 920073
+normInf = 10070
+Runtime: 55181843 microseconds
+  norm2 = 912941
+normInf = 9966.67
+Runtime: 55774377 microseconds
+  norm2 = 905936
+normInf = 9864.97
+Runtime: 56368457 microseconds
+  norm2 = 899056
+normInf = 9764.82
+Runtime: 56965695 microseconds
+  norm2 = 892296
+normInf = 9666.2
+Runtime: 57561891 microseconds
+  norm2 = 885653
+normInf = 9569.08
+Runtime: 58157336 microseconds
+  norm2 = 879125
+normInf = 9473.44
+Runtime: 58752810 microseconds
+Running resolution=1000, MPI processes=38
+  norm2 = 1.76423e+07
+normInf = 499000
+Runtime: 96103 microseconds
+  norm2 = 1.27831e+07
+normInf = 311875
+Runtime: 770027 microseconds
+  norm2 = 1.02136e+07
+normInf = 218313
+Runtime: 1380298 microseconds
+  norm2 = 8.59604e+06
+normInf = 187125
+Runtime: 1960034 microseconds
+  norm2 = 7.47254e+06
+normInf = 160811
+Runtime: 2537738 microseconds
+  norm2 = 6.64104e+06
+normInf = 139369
+Runtime: 3114270 microseconds
+  norm2 = 5.99765e+06
+normInf = 121948
+Runtime: 3691550 microseconds
+  norm2 = 5.48313e+06
+normInf = 107694
+Runtime: 4269183 microseconds
+  norm2 = 5.06106e+06
+normInf = 95915.4
+Runtime: 4845344 microseconds
+  norm2 = 4.70777e+06
+normInf = 86077.9
+Runtime: 5423257 microseconds
+  norm2 = 4.40713e+06
+normInf = 77777.5
+Runtime: 6000484 microseconds
+  norm2 = 4.14778e+06
+normInf = 72916.4
+Runtime: 6578019 microseconds
+  norm2 = 3.92146e+06
+normInf = 68432.3
+Runtime: 7156433 microseconds
+  norm2 = 3.72201e+06
+normInf = 64313.7
+Runtime: 7734569 microseconds
+  norm2 = 3.54472e+06
+normInf = 60538.2
+Runtime: 8311317 microseconds
+  norm2 = 3.38597e+06
+normInf = 57078.8
+Runtime: 8891049 microseconds
+  norm2 = 3.24287e+06
+normInf = 53907.8
+Runtime: 9469040 microseconds
+  norm2 = 3.11313e+06
+normInf = 50998
+Runtime: 10049755 microseconds
+  norm2 = 2.99489e+06
+normInf = 48324.2
+Runtime: 10627741 microseconds
+  norm2 = 2.88663e+06
+normInf = 45863.2
+Runtime: 11206658 microseconds
+  norm2 = 2.78708e+06
+normInf = 43594.2
+Runtime: 11783938 microseconds
+  norm2 = 2.69518e+06
+normInf = 41498.3
+Runtime: 12363786 microseconds
+  norm2 = 2.61006e+06
+normInf = 39558.8
+Runtime: 12944840 microseconds
+  norm2 = 2.53096e+06
+normInf = 38194.7
+Runtime: 13525558 microseconds
+  norm2 = 2.45724e+06
+normInf = 36892.6
+Runtime: 14104636 microseconds
+  norm2 = 2.38834e+06
+normInf = 35650.8
+Runtime: 14737030 microseconds
+  norm2 = 2.32378e+06
+normInf = 34467.1
+Runtime: 15317248 microseconds
+  norm2 = 2.26316e+06
+normInf = 33339.1
+Runtime: 15897964 microseconds
+  norm2 = 2.2061e+06
+normInf = 32264.2
+Runtime: 16481056 microseconds
+  norm2 = 2.15229e+06
+normInf = 31240
+Runtime: 17063287 microseconds
+  norm2 = 2.10144e+06
+normInf = 30263.7
+Runtime: 17645254 microseconds
+  norm2 = 2.05332e+06
+normInf = 29333
+Runtime: 18227512 microseconds
+  norm2 = 2.00768e+06
+normInf = 28445.2
+Runtime: 18812672 microseconds
+  norm2 = 1.96435e+06
+normInf = 27598.2
+Runtime: 19380431 microseconds
+  norm2 = 1.92314e+06
+normInf = 26789.7
+Runtime: 19947599 microseconds
+  norm2 = 1.88389e+06
+normInf = 26017.5
+Runtime: 20520037 microseconds
+  norm2 = 1.84646e+06
+normInf = 25279.6
+Runtime: 21087669 microseconds
+  norm2 = 1.81072e+06
+normInf = 24574.1
+Runtime: 21657201 microseconds
+  norm2 = 1.77655e+06
+normInf = 23899.3
+Runtime: 22238085 microseconds
+  norm2 = 1.74385e+06
+normInf = 23379.7
+Runtime: 22822424 microseconds
+  norm2 = 1.71253e+06
+normInf = 22875.6
+Runtime: 23405970 microseconds
+  norm2 = 1.68248e+06
+normInf = 22386.4
+Runtime: 23990180 microseconds
+  norm2 = 1.65364e+06
+normInf = 21912
+Runtime: 24574582 microseconds
+  norm2 = 1.62592e+06
+normInf = 21451.8
+Runtime: 25158818 microseconds
+  norm2 = 1.59927e+06
+normInf = 21005.6
+Runtime: 25743345 microseconds
+  norm2 = 1.57361e+06
+normInf = 20572.8
+Runtime: 26327369 microseconds
+  norm2 = 1.54889e+06
+normInf = 20153
+Runtime: 26911677 microseconds
+  norm2 = 1.52506e+06
+normInf = 19745.9
+Runtime: 27495577 microseconds
+  norm2 = 1.50207e+06
+normInf = 19351
+Runtime: 28080837 microseconds
+  norm2 = 1.47987e+06
+normInf = 18967.8
+Runtime: 28665343 microseconds
+  norm2 = 1.45842e+06
+normInf = 18596.1
+Runtime: 29251314 microseconds
+  norm2 = 1.43769e+06
+normInf = 18235.4
+Runtime: 29842583 microseconds
+  norm2 = 1.41763e+06
+normInf = 17885.4
+Runtime: 30428990 microseconds
+  norm2 = 1.39821e+06
+normInf = 17545.5
+Runtime: 31014125 microseconds
+  norm2 = 1.3794e+06
+normInf = 17215.6
+Runtime: 31600717 microseconds
+  norm2 = 1.36117e+06
+normInf = 16895.2
+Runtime: 32188220 microseconds
+  norm2 = 1.34349e+06
+normInf = 16584
+Runtime: 32775754 microseconds
+  norm2 = 1.32634e+06
+normInf = 16281.7
+Runtime: 33369205 microseconds
+  norm2 = 1.30969e+06
+normInf = 15988
+Runtime: 33960226 microseconds
+  norm2 = 1.29352e+06
+normInf = 15749.3
+Runtime: 34548473 microseconds
+  norm2 = 1.27781e+06
+normInf = 15515.7
+Runtime: 35138477 microseconds
+  norm2 = 1.26254e+06
+normInf = 15286.9
+Runtime: 35728782 microseconds
+  norm2 = 1.24768e+06
+normInf = 15062.8
+Runtime: 36318722 microseconds
+  norm2 = 1.23323e+06
+normInf = 14843.5
+Runtime: 36906777 microseconds
+  norm2 = 1.21916e+06
+normInf = 14628.7
+Runtime: 37496059 microseconds
+  norm2 = 1.20546e+06
+normInf = 14418.5
+Runtime: 38085437 microseconds
+  norm2 = 1.19212e+06
+normInf = 14212.6
+Runtime: 38674959 microseconds
+  norm2 = 1.17911e+06
+normInf = 14011.1
+Runtime: 39264202 microseconds
+  norm2 = 1.16643e+06
+normInf = 13813.8
+Runtime: 39855480 microseconds
+  norm2 = 1.15407e+06
+normInf = 13620.6
+Runtime: 40445705 microseconds
+  norm2 = 1.14201e+06
+normInf = 13431.4
+Runtime: 41036908 microseconds
+  norm2 = 1.13023e+06
+normInf = 13246.2
+Runtime: 41626493 microseconds
+  norm2 = 1.11874e+06
+normInf = 13064.8
+Runtime: 42218038 microseconds
+  norm2 = 1.10751e+06
+normInf = 12887.1
+Runtime: 42807351 microseconds
+  norm2 = 1.09655e+06
+normInf = 12713.1
+Runtime: 43398658 microseconds
+  norm2 = 1.08583e+06
+normInf = 12542.7
+Runtime: 43991268 microseconds
+  norm2 = 1.07536e+06
+normInf = 12375.7
+Runtime: 44583820 microseconds
+  norm2 = 1.06512e+06
+normInf = 12212.2
+Runtime: 45176025 microseconds
+  norm2 = 1.0551e+06
+normInf = 12052
+Runtime: 45767714 microseconds
+  norm2 = 1.0453e+06
+normInf = 11895
+Runtime: 46359605 microseconds
+  norm2 = 1.03571e+06
+normInf = 11741.1
+Runtime: 46951354 microseconds
+  norm2 = 1.02632e+06
+normInf = 11590.3
+Runtime: 47543618 microseconds
+  norm2 = 1.01713e+06
+normInf = 11442.6
+Runtime: 48135848 microseconds
+  norm2 = 1.00813e+06
+normInf = 11318.2
+Runtime: 48727983 microseconds
+  norm2 = 999313
+normInf = 11195.7
+Runtime: 49320877 microseconds
+  norm2 = 990673
+normInf = 11075.1
+Runtime: 49914935 microseconds
+  norm2 = 982206
+normInf = 10956.4
+Runtime: 50509135 microseconds
+  norm2 = 973906
+normInf = 10839.5
+Runtime: 51102931 microseconds
+  norm2 = 965767
+normInf = 10724.4
+Runtime: 51697412 microseconds
+  norm2 = 957785
+normInf = 10611
+Runtime: 52291863 microseconds
+  norm2 = 949956
+normInf = 10499.4
+Runtime: 52886907 microseconds
+  norm2 = 942274
+normInf = 10389.6
+Runtime: 53481046 microseconds
+  norm2 = 934736
+normInf = 10281.4
+Runtime: 54074887 microseconds
+  norm2 = 927337
+normInf = 10174.8
+Runtime: 54669103 microseconds
+  norm2 = 920073
+normInf = 10070
+Runtime: 55263463 microseconds
+  norm2 = 912941
+normInf = 9966.67
+Runtime: 55859022 microseconds
+  norm2 = 905936
+normInf = 9864.97
+Runtime: 56456497 microseconds
+  norm2 = 899056
+normInf = 9764.82
+Runtime: 57053616 microseconds
+  norm2 = 892296
+normInf = 9666.2
+Runtime: 57648847 microseconds
+  norm2 = 885653
+normInf = 9569.08
+Runtime: 58245275 microseconds
+  norm2 = 879125
+normInf = 9473.44
+Runtime: 58842041 microseconds
+Running resolution=1000, MPI processes=39
+  norm2 = 1.76423e+07
+normInf = 499000
+Runtime: 67007 microseconds
+  norm2 = 1.27831e+07
+normInf = 311875
+Runtime: 681009 microseconds
+  norm2 = 1.02136e+07
+normInf = 218313
+Runtime: 1337290 microseconds
+  norm2 = 8.59604e+06
+normInf = 187125
+Runtime: 1919885 microseconds
+  norm2 = 7.47254e+06
+normInf = 160811
+Runtime: 2488366 microseconds
+  norm2 = 6.64104e+06
+normInf = 139369
+Runtime: 3067715 microseconds
+  norm2 = 5.99765e+06
+normInf = 121948
+Runtime: 3634810 microseconds
+  norm2 = 5.48313e+06
+normInf = 107694
+Runtime: 4204678 microseconds
+  norm2 = 5.06106e+06
+normInf = 95915.4
+Runtime: 4772558 microseconds
+  norm2 = 4.70777e+06
+normInf = 86077.9
+Runtime: 5353175 microseconds
+  norm2 = 4.40713e+06
+normInf = 77777.5
+Runtime: 5922941 microseconds
+  norm2 = 4.14778e+06
+normInf = 72916.4
+Runtime: 6493933 microseconds
+  norm2 = 3.92146e+06
+normInf = 68432.3
+Runtime: 7065498 microseconds
+  norm2 = 3.72201e+06
+normInf = 64313.7
+Runtime: 7638881 microseconds
+  norm2 = 3.54472e+06
+normInf = 60538.2
+Runtime: 8219748 microseconds
+  norm2 = 3.38597e+06
+normInf = 57078.8
+Runtime: 8801804 microseconds
+  norm2 = 3.24287e+06
+normInf = 53907.8
+Runtime: 9372732 microseconds
+  norm2 = 3.11313e+06
+normInf = 50998
+Runtime: 9954936 microseconds
+  norm2 = 2.99489e+06
+normInf = 48324.2
+Runtime: 10525688 microseconds
+  norm2 = 2.88663e+06
+normInf = 45863.2
+Runtime: 11108700 microseconds
+  norm2 = 2.78708e+06
+normInf = 43594.2
+Runtime: 11679389 microseconds
+  norm2 = 2.69518e+06
+normInf = 41498.3
+Runtime: 12260778 microseconds
+  norm2 = 2.61006e+06
+normInf = 39558.8
+Runtime: 12831597 microseconds
+  norm2 = 2.53096e+06
+normInf = 38194.7
+Runtime: 13407964 microseconds
+  norm2 = 2.45724e+06
+normInf = 36892.6
+Runtime: 13978578 microseconds
+  norm2 = 2.38834e+06
+normInf = 35650.8
+Runtime: 14562585 microseconds
+  norm2 = 2.32378e+06
+normInf = 34467.1
+Runtime: 15133703 microseconds
+  norm2 = 2.26316e+06
+normInf = 33339.1
+Runtime: 15716475 microseconds
+  norm2 = 2.2061e+06
+normInf = 32264.2
+Runtime: 16291740 microseconds
+  norm2 = 2.15229e+06
+normInf = 31240
+Runtime: 16873342 microseconds
+  norm2 = 2.10144e+06
+normInf = 30263.7
+Runtime: 17457192 microseconds
+  norm2 = 2.05332e+06
+normInf = 29333
+Runtime: 18039686 microseconds
+  norm2 = 2.00768e+06
+normInf = 28445.2
+Runtime: 18623374 microseconds
+  norm2 = 1.96435e+06
+normInf = 27598.2
+Runtime: 19209847 microseconds
+  norm2 = 1.92314e+06
+normInf = 26789.7
+Runtime: 19786713 microseconds
+  norm2 = 1.88389e+06
+normInf = 26017.5
+Runtime: 20370126 microseconds
+  norm2 = 1.84646e+06
+normInf = 25279.6
+Runtime: 20943564 microseconds
+  norm2 = 1.81072e+06
+normInf = 24574.1
+Runtime: 21527536 microseconds
+  norm2 = 1.77655e+06
+normInf = 23899.3
+Runtime: 22100752 microseconds
+  norm2 = 1.74385e+06
+normInf = 23379.7
+Runtime: 22685554 microseconds
+  norm2 = 1.71253e+06
+normInf = 22875.6
+Runtime: 23261468 microseconds
+  norm2 = 1.68248e+06
+normInf = 22386.4
+Runtime: 23847559 microseconds
+  norm2 = 1.65364e+06
+normInf = 21912
+Runtime: 24433233 microseconds
+  norm2 = 1.62592e+06
+normInf = 21451.8
+Runtime: 25031373 microseconds
+  norm2 = 1.59927e+06
+normInf = 21005.6
+Runtime: 25626564 microseconds
+  norm2 = 1.57361e+06
+normInf = 20572.8
+Runtime: 26201886 microseconds
+  norm2 = 1.54889e+06
+normInf = 20153
+Runtime: 26783173 microseconds
+  norm2 = 1.52506e+06
+normInf = 19745.9
+Runtime: 27368870 microseconds
+  norm2 = 1.50207e+06
+normInf = 19351
+Runtime: 27954055 microseconds
+  norm2 = 1.47987e+06
+normInf = 18967.8
+Runtime: 28529277 microseconds
+  norm2 = 1.45842e+06
+normInf = 18596.1
+Runtime: 29116749 microseconds
+  norm2 = 1.43769e+06
+normInf = 18235.4
+Runtime: 29705113 microseconds
+  norm2 = 1.41763e+06
+normInf = 17885.4
+Runtime: 30292977 microseconds
+  norm2 = 1.39821e+06
+normInf = 17545.5
+Runtime: 30871209 microseconds
+  norm2 = 1.3794e+06
+normInf = 17215.6
+Runtime: 31450543 microseconds
+  norm2 = 1.36117e+06
+normInf = 16895.2
+Runtime: 32024650 microseconds
+  norm2 = 1.34349e+06
+normInf = 16584
+Runtime: 32602546 microseconds
+  norm2 = 1.32634e+06
+normInf = 16281.7
+Runtime: 33177580 microseconds
+  norm2 = 1.30969e+06
+normInf = 15988
+Runtime: 33756756 microseconds
+  norm2 = 1.29352e+06
+normInf = 15749.3
+Runtime: 34341897 microseconds
+  norm2 = 1.27781e+06
+normInf = 15515.7
+Runtime: 34922400 microseconds
+  norm2 = 1.26254e+06
+normInf = 15286.9
+Runtime: 35497642 microseconds
+  norm2 = 1.24768e+06
+normInf = 15062.8
+Runtime: 36080786 microseconds
+  norm2 = 1.23323e+06
+normInf = 14843.5
+Runtime: 36671434 microseconds
+  norm2 = 1.21916e+06
+normInf = 14628.7
+Runtime: 37261398 microseconds
+  norm2 = 1.20546e+06
+normInf = 14418.5
+Runtime: 37840034 microseconds
+  norm2 = 1.19212e+06
+normInf = 14212.6
+Runtime: 38430783 microseconds
+  norm2 = 1.17911e+06
+normInf = 14011.1
+Runtime: 39023471 microseconds
+  norm2 = 1.16643e+06
+normInf = 13813.8
+Runtime: 39612902 microseconds
+  norm2 = 1.15407e+06
+normInf = 13620.6
+Runtime: 40204637 microseconds
+  norm2 = 1.14201e+06
+normInf = 13431.4
+Runtime: 40795414 microseconds
+  norm2 = 1.13023e+06
+normInf = 13246.2
+Runtime: 41376098 microseconds
+  norm2 = 1.11874e+06
+normInf = 13064.8
+Runtime: 41969469 microseconds
+  norm2 = 1.10751e+06
+normInf = 12887.1
+Runtime: 42561472 microseconds
+  norm2 = 1.09655e+06
+normInf = 12713.1
+Runtime: 43143496 microseconds
+  norm2 = 1.08583e+06
+normInf = 12542.7
+Runtime: 43721552 microseconds
+  norm2 = 1.07536e+06
+normInf = 12375.7
+Runtime: 44317547 microseconds
+  norm2 = 1.06512e+06
+normInf = 12212.2
+Runtime: 44909541 microseconds
+  norm2 = 1.0551e+06
+normInf = 12052
+Runtime: 45499772 microseconds
+  norm2 = 1.0453e+06
+normInf = 11895
+Runtime: 46080267 microseconds
+  norm2 = 1.03571e+06
+normInf = 11741.1
+Runtime: 46662033 microseconds
+  norm2 = 1.02632e+06
+normInf = 11590.3
+Runtime: 47255310 microseconds
+  norm2 = 1.01713e+06
+normInf = 11442.6
+Runtime: 47837751 microseconds
+  norm2 = 1.00813e+06
+normInf = 11318.2
+Runtime: 48429804 microseconds
+  norm2 = 999313
+normInf = 11195.7
+Runtime: 49024419 microseconds
+  norm2 = 990673
+normInf = 11075.1
+Runtime: 49612713 microseconds
+  norm2 = 982206
+normInf = 10956.4
+Runtime: 50195640 microseconds
+  norm2 = 973906
+normInf = 10839.5
+Runtime: 50789124 microseconds
+  norm2 = 965767
+normInf = 10724.4
+Runtime: 51375759 microseconds
+  norm2 = 957785
+normInf = 10611
+Runtime: 51966521 microseconds
+  norm2 = 949956
+normInf = 10499.4
+Runtime: 52550322 microseconds
+  norm2 = 942274
+normInf = 10389.6
+Runtime: 53147467 microseconds
+  norm2 = 934736
+normInf = 10281.4
+Runtime: 53743440 microseconds
+  norm2 = 927337
+normInf = 10174.8
+Runtime: 54332425 microseconds
+  norm2 = 920073
+normInf = 10070
+Runtime: 54926024 microseconds
+  norm2 = 912941
+normInf = 9966.67
+Runtime: 55520352 microseconds
+  norm2 = 905936
+normInf = 9864.97
+Runtime: 56117186 microseconds
+  norm2 = 899056
+normInf = 9764.82
+Runtime: 56713314 microseconds
+  norm2 = 892296
+normInf = 9666.2
+Runtime: 57297074 microseconds
+  norm2 = 885653
+normInf = 9569.08
+Runtime: 57880334 microseconds
+  norm2 = 879125
+normInf = 9473.44
+Runtime: 58466153 microseconds
+Running resolution=1000, MPI processes=40
+  norm2 = 1.76423e+07
+normInf = 499000
+Runtime: 74018 microseconds
+  norm2 = 1.27831e+07
+normInf = 311875
+Runtime: 645954 microseconds
+  norm2 = 1.02136e+07
+normInf = 218313
+Runtime: 1210585 microseconds
+  norm2 = 8.59604e+06
+normInf = 187125
+Runtime: 1778017 microseconds
+  norm2 = 7.47254e+06
+normInf = 160811
+Runtime: 2351869 microseconds
+  norm2 = 6.64104e+06
+normInf = 139369
+Runtime: 2922176 microseconds
+  norm2 = 5.99765e+06
+normInf = 121948
+Runtime: 3488564 microseconds
+  norm2 = 5.48313e+06
+normInf = 107694
+Runtime: 4056358 microseconds
+  norm2 = 5.06106e+06
+normInf = 95915.4
+Runtime: 4623605 microseconds
+  norm2 = 4.70777e+06
+normInf = 86077.9
+Runtime: 5189721 microseconds
+  norm2 = 4.40713e+06
+normInf = 77777.5
+Runtime: 5758305 microseconds
+  norm2 = 4.14778e+06
+normInf = 72916.4
+Runtime: 6326171 microseconds
+  norm2 = 3.92146e+06
+normInf = 68432.3
+Runtime: 6897133 microseconds
+  norm2 = 3.72201e+06
+normInf = 64313.7
+Runtime: 7470114 microseconds
+  norm2 = 3.54472e+06
+normInf = 60538.2
+Runtime: 8044240 microseconds
+  norm2 = 3.38597e+06
+normInf = 57078.8
+Runtime: 8620412 microseconds
+  norm2 = 3.24287e+06
+normInf = 53907.8
+Runtime: 9193475 microseconds
+  norm2 = 3.11313e+06
+normInf = 50998
+Runtime: 9764120 microseconds
+  norm2 = 2.99489e+06
+normInf = 48324.2
+Runtime: 10334331 microseconds
+  norm2 = 2.88663e+06
+normInf = 45863.2
+Runtime: 10913468 microseconds
+  norm2 = 2.78708e+06
+normInf = 43594.2
+Runtime: 11494650 microseconds
+  norm2 = 2.69518e+06
+normInf = 41498.3
+Runtime: 12068129 microseconds
+  norm2 = 2.61006e+06
+normInf = 39558.8
+Runtime: 12651133 microseconds
+  norm2 = 2.53096e+06
+normInf = 38194.7
+Runtime: 13223788 microseconds
+  norm2 = 2.45724e+06
+normInf = 36892.6
+Runtime: 13802859 microseconds
+  norm2 = 2.38834e+06
+normInf = 35650.8
+Runtime: 14376256 microseconds
+  norm2 = 2.32378e+06
+normInf = 34467.1
+Runtime: 14937645 microseconds
+  norm2 = 2.26316e+06
+normInf = 33339.1
+Runtime: 15499447 microseconds
+  norm2 = 2.2061e+06
+normInf = 32264.2
+Runtime: 16059837 microseconds
+  norm2 = 2.15229e+06
+normInf = 31240
+Runtime: 16622311 microseconds
+  norm2 = 2.10144e+06
+normInf = 30263.7
+Runtime: 17181810 microseconds
+  norm2 = 2.05332e+06
+normInf = 29333
+Runtime: 17739349 microseconds
+  norm2 = 2.00768e+06
+normInf = 28445.2
+Runtime: 18297120 microseconds
+  norm2 = 1.96435e+06
+normInf = 27598.2
+Runtime: 18855042 microseconds
+  norm2 = 1.92314e+06
+normInf = 26789.7
+Runtime: 19413068 microseconds
+  norm2 = 1.88389e+06
+normInf = 26017.5
+Runtime: 19980442 microseconds
+  norm2 = 1.84646e+06
+normInf = 25279.6
+Runtime: 20539290 microseconds
+  norm2 = 1.81072e+06
+normInf = 24574.1
+Runtime: 21103230 microseconds
+  norm2 = 1.77655e+06
+normInf = 23899.3
+Runtime: 21662151 microseconds
+  norm2 = 1.74385e+06
+normInf = 23379.7
+Runtime: 22226461 microseconds
+  norm2 = 1.71253e+06
+normInf = 22875.6
+Runtime: 22785584 microseconds
+  norm2 = 1.68248e+06
+normInf = 22386.4
+Runtime: 23347106 microseconds
+  norm2 = 1.65364e+06
+normInf = 21912
+Runtime: 23911143 microseconds
+  norm2 = 1.62592e+06
+normInf = 21451.8
+Runtime: 24470571 microseconds
+  norm2 = 1.59927e+06
+normInf = 21005.6
+Runtime: 25036468 microseconds
+  norm2 = 1.57361e+06
+normInf = 20572.8
+Runtime: 25597110 microseconds
+  norm2 = 1.54889e+06
+normInf = 20153
+Runtime: 26156800 microseconds
+  norm2 = 1.52506e+06
+normInf = 19745.9
+Runtime: 26717313 microseconds
+  norm2 = 1.50207e+06
+normInf = 19351
+Runtime: 27280551 microseconds
+  norm2 = 1.47987e+06
+normInf = 18967.8
+Runtime: 27848594 microseconds
+  norm2 = 1.45842e+06
+normInf = 18596.1
+Runtime: 28409834 microseconds
+  norm2 = 1.43769e+06
+normInf = 18235.4
+Runtime: 28978481 microseconds
+  norm2 = 1.41763e+06
+normInf = 17885.4
+Runtime: 29543509 microseconds
+  norm2 = 1.39821e+06
+normInf = 17545.5
+Runtime: 30108293 microseconds
+  norm2 = 1.3794e+06
+normInf = 17215.6
+Runtime: 30671086 microseconds
+  norm2 = 1.36117e+06
+normInf = 16895.2
+Runtime: 31237349 microseconds
+  norm2 = 1.34349e+06
+normInf = 16584
+Runtime: 31799491 microseconds
+  norm2 = 1.32634e+06
+normInf = 16281.7
+Runtime: 32361701 microseconds
+  norm2 = 1.30969e+06
+normInf = 15988
+Runtime: 32927142 microseconds
+  norm2 = 1.29352e+06
+normInf = 15749.3
+Runtime: 33491150 microseconds
+  norm2 = 1.27781e+06
+normInf = 15515.7
+Runtime: 34055651 microseconds
+  norm2 = 1.26254e+06
+normInf = 15286.9
+Runtime: 34618746 microseconds
+  norm2 = 1.24768e+06
+normInf = 15062.8
+Runtime: 35180407 microseconds
+  norm2 = 1.23323e+06
+normInf = 14843.5
+Runtime: 35743855 microseconds
+  norm2 = 1.21916e+06
+normInf = 14628.7
+Runtime: 36307829 microseconds
+  norm2 = 1.20546e+06
+normInf = 14418.5
+Runtime: 36870224 microseconds
+  norm2 = 1.19212e+06
+normInf = 14212.6
+Runtime: 37434765 microseconds
+  norm2 = 1.17911e+06
+normInf = 14011.1
+Runtime: 38001882 microseconds
+  norm2 = 1.16643e+06
+normInf = 13813.8
+Runtime: 38566520 microseconds
+  norm2 = 1.15407e+06
+normInf = 13620.6
+Runtime: 39130555 microseconds
+  norm2 = 1.14201e+06
+normInf = 13431.4
+Runtime: 39695475 microseconds
+  norm2 = 1.13023e+06
+normInf = 13246.2
+Runtime: 40260316 microseconds
+  norm2 = 1.11874e+06
+normInf = 13064.8
+Runtime: 40826561 microseconds
+  norm2 = 1.10751e+06
+normInf = 12887.1
+Runtime: 41392117 microseconds
+  norm2 = 1.09655e+06
+normInf = 12713.1
+Runtime: 41966354 microseconds
+  norm2 = 1.08583e+06
+normInf = 12542.7
+Runtime: 42532899 microseconds
+  norm2 = 1.07536e+06
+normInf = 12375.7
+Runtime: 43102233 microseconds
+  norm2 = 1.06512e+06
+normInf = 12212.2
+Runtime: 43669077 microseconds
+  norm2 = 1.0551e+06
+normInf = 12052
+Runtime: 44236225 microseconds
+  norm2 = 1.0453e+06
+normInf = 11895
+Runtime: 44803816 microseconds
+  norm2 = 1.03571e+06
+normInf = 11741.1
+Runtime: 45370513 microseconds
+  norm2 = 1.02632e+06
+normInf = 11590.3
+Runtime: 45940753 microseconds
+  norm2 = 1.01713e+06
+normInf = 11442.6
+Runtime: 46508171 microseconds
+  norm2 = 1.00813e+06
+normInf = 11318.2
+Runtime: 47078198 microseconds
+  norm2 = 999313
+normInf = 11195.7
+Runtime: 47651089 microseconds
+  norm2 = 990673
+normInf = 11075.1
+Runtime: 48228273 microseconds
+  norm2 = 982206
+normInf = 10956.4
+Runtime: 48802155 microseconds
+  norm2 = 973906
+normInf = 10839.5
+Runtime: 49373080 microseconds
+  norm2 = 965767
+normInf = 10724.4
+Runtime: 49946392 microseconds
+  norm2 = 957785
+normInf = 10611
+Runtime: 50516130 microseconds
+  norm2 = 949956
+normInf = 10499.4
+Runtime: 51096094 microseconds
+  norm2 = 942274
+normInf = 10389.6
+Runtime: 51670094 microseconds
+  norm2 = 934736
+normInf = 10281.4
+Runtime: 52247267 microseconds
+  norm2 = 927337
+normInf = 10174.8
+Runtime: 52823812 microseconds
+  norm2 = 920073
+normInf = 10070
+Runtime: 53396262 microseconds
+  norm2 = 912941
+normInf = 9966.67
+Runtime: 53970836 microseconds
+  norm2 = 905936
+normInf = 9864.97
+Runtime: 54545324 microseconds
+  norm2 = 899056
+normInf = 9764.82
+Runtime: 55126188 microseconds
+  norm2 = 892296
+normInf = 9666.2
+Runtime: 55703141 microseconds
+  norm2 = 885653
+normInf = 9569.08
+Runtime: 56285240 microseconds
+  norm2 = 879125
+normInf = 9473.44
+Runtime: 56861617 microseconds

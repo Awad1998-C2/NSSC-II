@@ -12,7 +12,7 @@
 #SBATCH --nodes=1                # number of nodes
 #SBATCH --ntasks=40              # number of processes
 #SBATCH --cpus-per-task=1        # number of cpus per process
-#SBATCH --time=00:10:00          # set time limit
+#SBATCH --time=00:20:00          # set time limit
 
 ## optional: load relevant modules, e.g.:
 # module load mpi/mpich-x86_64 pmi/pmix-x86_64
@@ -23,11 +23,11 @@ mpic++ -std=c++17 -O3 -Wall -pedantic -march=native -ffast-math main_1D.cpp -o m
 # resolutions=(125 250 1000 2000)
 resolutions=(2000)
 
-iterations=100
+iterations=20
 
 ## Run benchmarks
 for res in "${resolutions[@]}"; do
-  for ((nprocs = 1; nprocs <= 40; nprocs++)); do
+  for ((nprocs = 30; nprocs <= 40; nprocs++)); do
     echo "Running resolution=${res}, MPI processes=${nprocs}"
     mpirun -np ${nprocs} ./main_1D 1D benchmark_1D_${res}_${nprocs} ${res} ${iterations} 0.0 1.0
   done

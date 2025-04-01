@@ -1,0 +1,2 @@
+/var/spool/slurmd/job140723/slurm_script: line 30: syntax error: arithmetic expression required
+/var/spool/slurmd/job140723/slurm_script: line 30: syntax error: `((nprocs = 20 nprocs <= 30; nprocs++))'
